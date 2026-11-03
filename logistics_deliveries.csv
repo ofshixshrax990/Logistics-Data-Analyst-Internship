@@ -1,0 +1,601 @@
+order_id,order_date,promised_delivery_date,actual_delivery_date,shipment_status,origin_warehouse,destination_zone,distance_km,order_weight_kg,vehicle_type,delivery_cost_inr,delay_reason
+ORD-00001,2026-10-06 16:32:00,2026-10-06 18:20:36,2026-10-06 16:53:00,delivered,Warehouse South,Zone B,3.4,3.48,Bike,49.28,None recorded
+ORD-00002,2026-10-26 16:36:00,2026-10-26 19:16:12,2026-10-26 17:43:12,delivered,Warehouse Central,Zone A,14.9,3.03,Truck,86.58,None recorded
+ORD-00003,2026-10-09 07:21:00,2026-10-09 10:46:48,2026-10-09 08:40:12,delivered,Warehouse Central,Zone A,11.0,2.17,Van,50.86,None recorded
+ORD-00004,2026-10-26 11:37:00,2026-10-26 15:08:48,2026-10-26 13:57:24,delivered,Warehouse South,Zone E,19.6,0.67,Van,68.96,None recorded
+ORD-00005,2026-10-20 14:23:00,2026-10-20 16:25:24,2026-10-20 17:54:12,delivered,Warehouse North,Zone F,19.3,1.65,Bike,104.12,Weather
+ORD-00006,2026-10-12 12:22:00,2026-10-12 14:35:12,2026-10-12 13:00:24,delivered,Warehouse South,Zone B,9.8,2.43,Van,69.38,None recorded
+ORD-00007,2026-10-12 15:18:00,2026-10-12 21:16:12,2026-10-12 18:35:23,delivered,Warehouse Central,Zone A,28.4,5.59,Van,109.94,None recorded
+ORD-00008,2026-10-30 11:35:00,2026-10-30 14:45:12,2026-10-30 11:56:36,delivered,Warehouse Central,Zone C,9.1,1.14,Bike,51.88,None recorded
+ORD-00009,2026-10-05 14:20:00,2026-10-05 21:31:24,2026-10-05 17:54:47,delivered,Warehouse Central,Zone C,40.9,2.27,Bike,138.04,None recorded
+ORD-00010,2026-10-29 10:26:00,2026-10-29 16:12:12,2026-10-29 16:02:36,delivered,Warehouse Central,Zone F,47.3,1.59,Bike,146.36,None recorded
+ORD-00011,2026-10-03 08:52:00,2026-10-03 11:29:12,2026-10-03 10:43:00,delivered,Warehouse North,Zone A,7.4,1.75,Van,65.65,None recorded
+ORD-00012,2026-10-14 10:10:00,2026-10-14 14:08:12,2026-10-14 11:44:11,delivered,Warehouse Central,Zone C,4.1,3.81,Van,51.54,None recorded
+ORD-00013,2026-10-18 16:04:00,2026-10-18 19:40:00,2026-10-18 17:56:12,delivered,Warehouse South,Zone D,20.0,3.24,Bike,82.1,None recorded
+ORD-00014,2026-10-29 17:07:00,2026-10-29 21:53:48,2026-10-29 20:29:48,delivered,Warehouse North,Zone C,27.0,2.33,Bike,95.55,None recorded
+ORD-00015,2026-10-06 16:49:00,2026-10-06 21:56:48,2026-10-06 19:39:24,delivered,Warehouse North,Zone F,9.1,5.5,Bike,94.02,None recorded
+ORD-00016,2026-10-21 17:27:00,2026-10-21 18:27:00,2026-10-21 18:21:36,delivered,Warehouse North,Zone D,8.7,3.47,Bike,61.17,None recorded
+ORD-00017,2026-10-05 13:00:00,2026-10-05 17:33:36,2026-10-05 14:55:48,delivered,Warehouse South,Zone D,8.5,3.16,Van,73.6,None recorded
+ORD-00018,2026-10-28 16:52:00,2026-10-28 21:14:12,,cancelled,Warehouse Central,Zone D,18.3,0.59,Van,93.39,Not applicable
+ORD-00019,2026-10-13 15:59:00,2026-10-13 19:24:12,2026-10-13 17:13:24,delivered,Warehouse South,Zone B,4.9,4.6,Bike,59.63,None recorded
+ORD-00020,2026-10-25 07:14:00,2026-10-25 10:06:48,2026-10-25 09:45:12,delivered,Warehouse Central,Zone F,8.4,2.8,Van,76.19,None recorded
+ORD-00021,2026-10-03 13:42:00,2026-10-03 16:09:00,2026-10-03 15:58:12,delivered,Warehouse North,Zone A,21.4,0.64,Bike,88.97,None recorded
+ORD-00022,2026-10-08 17:23:00,2026-10-08 18:47:36,2026-10-08 18:29:36,delivered,Warehouse Central,Zone D,1.4,2.06,Bike,49.44,None recorded
+ORD-00023,2026-10-23 09:50:00,2026-10-23 12:46:24,2026-10-23 12:15:12,delivered,Warehouse South,Zone B,13.9,1.03,Van,62.65,None recorded
+ORD-00024,2026-10-14 09:30:00,2026-10-14 13:18:36,2026-10-14 13:40:48,delivered,Warehouse Central,Zone F,43.5,5.96,Bike,161.54,Weather
+ORD-00025,2026-10-26 14:18:00,2026-10-26 16:53:24,2026-10-26 17:13:12,delivered,Warehouse Central,Zone D,7.7,1.15,Bike,49.62,Route issue
+ORD-00026,2026-10-13 11:42:00,2026-10-13 14:48:36,2026-10-13 13:04:48,delivered,Warehouse Central,Zone E,9.8,4.29,Bike,58.37,None recorded
+ORD-00027,2026-10-05 09:44:00,2026-10-05 12:27:48,2026-10-05 11:42:12,delivered,Warehouse North,Zone A,11.9,0.54,Truck,70.75,None recorded
+ORD-00028,2026-10-12 15:03:00,2026-10-12 17:33:00,2026-10-12 15:41:24,delivered,Warehouse Central,Zone F,13.1,1.85,Bike,77.85,None recorded
+ORD-00029,2026-10-23 08:02:00,2026-10-23 09:27:48,2026-10-23 10:06:48,delivered,Warehouse North,Zone C,8.4,4.48,Bike,58.9,Weather
+ORD-00030,2026-10-01 12:06:00,2026-10-01 16:19:48,2026-10-01 13:38:24,delivered,Warehouse Central,Zone B,9.8,3.64,Van,82.62,None recorded
+ORD-00031,2026-10-09 10:49:00,2026-10-09 14:08:48,2026-10-09 13:25:36,delivered,Warehouse North,Zone B,22.7,1.5,Van,87.01,None recorded
+ORD-00032,2026-10-14 12:07:00,2026-10-14 14:17:12,,cancelled,Warehouse South,Zone F,18.8,3.68,Van,83.77,Not applicable
+ORD-00033,2026-10-25 14:05:00,2026-10-25 16:32:00,2026-10-25 14:35:36,delivered,Warehouse North,Zone B,7.3,3.53,Bike,48.2,None recorded
+ORD-00034,2026-10-22 08:57:00,2026-10-22 12:19:12,2026-10-22 11:41:24,delivered,Warehouse North,Zone F,21.4,3.05,Bike,69.18,None recorded
+ORD-00035,2026-10-26 13:31:00,2026-10-26 18:18:24,2026-10-26 17:56:48,delivered,Warehouse North,Zone C,48.3,9.16,Bike,175.58,None recorded
+ORD-00036,2026-10-24 12:52:00,2026-10-24 14:02:48,,in transit,Warehouse South,Zone D,2.8,15.37,Bike,66.42,Not applicable
+ORD-00037,2026-10-23 12:57:00,2026-10-23 16:00:00,2026-10-23 14:52:48,delivered,Warehouse North,Zone C,4.1,3.61,Bike,64.92,None recorded
+ORD-00038,2026-10-21 15:16:00,2026-10-21 17:46:36,2026-10-21 17:20:12,delivered,Warehouse North,Zone D,6.7,2.85,Bike,26.89,None recorded
+ORD-00039,2026-10-18 07:48:00,2026-10-18 09:22:11,2026-10-18 09:00:00,delivered,Warehouse Central,Zone B,1.4,9.4,Van,52.71,None recorded
+ORD-00040,2026-10-23 15:07:00,2026-10-23 17:17:12,2026-10-23 15:43:00,delivered,Warehouse South,Zone E,1.4,3.74,Van,42.0,None recorded
+ORD-00041,2026-10-15 11:38:00,2026-10-15 13:59:36,2026-10-15 13:51:48,delivered,Warehouse South,Zone C,6.1,5.83,Bike,51.72,None recorded
+ORD-00042,2026-10-29 10:59:00,2026-10-29 13:30:12,2026-10-29 14:32:00,delivered,Warehouse North,Zone F,23.4,2.02,Bike,97.3,Traffic
+ORD-00043,2026-10-15 07:03:00,2026-10-15 11:36:00,2026-10-15 09:04:48,delivered,Warehouse North,Zone A,5.2,4.11,Van,69.84,None recorded
+ORD-00044,2026-10-08 17:58:00,2026-10-08 20:08:48,2026-10-08 20:23:48,delivered,Warehouse North,Zone D,19.4,1.44,Bike,86.52,Route issue
+ORD-00045,2026-10-20 07:54:00,2026-10-20 10:37:48,2026-10-20 08:15:00,delivered,Warehouse Central,Zone A,12.6,1.04,Van,60.26,None recorded
+ORD-00046,2026-10-30 16:12:00,2026-10-30 19:49:48,2026-10-30 17:48:00,delivered,Warehouse Central,Zone F,10.5,3.02,Bike,77.16,None recorded
+ORD-00047,2026-10-08 12:00:00,2026-10-08 14:42:00,2026-10-08 13:44:24,delivered,Warehouse Central,Zone F,11.7,2.74,Van,82.1,None recorded
+ORD-00048,2026-10-23 17:58:00,2026-10-23 21:19:36,2026-10-23 19:38:12,delivered,Warehouse North,Zone E,1.8,6.81,Bike,32.3,None recorded
+ORD-00049,2026-10-02 14:46:00,2026-10-02 19:32:12,2026-10-02 19:34:00,delivered,Warehouse South,Zone F,31.8,6.06,Van,107.49,Other
+ORD-00050,2026-10-04 13:10:00,2026-10-04 15:04:36,,cancelled,Warehouse South,Zone C,4.0,4.4,Bike,54.91,Not applicable
+ORD-00051,2026-10-14 11:07:00,2026-10-14 18:27:24,2026-10-14 16:48:24,delivered,Warehouse South,Zone B,65.0,8.62,Truck,218.84,None recorded
+ORD-00052,2026-10-16 09:30:00,2026-10-16 14:01:12,2026-10-16 13:16:48,delivered,Warehouse South,Zone D,28.6,15.06,Van,108.27,None recorded
+ORD-00053,2026-10-20 08:27:00,2026-10-20 12:21:00,2026-10-20 12:24:00,delivered,Warehouse Central,Zone F,27.8,1.13,Van,101.63,Route issue
+ORD-00054,2026-10-14 12:17:00,2026-10-14 14:56:36,2026-10-14 13:33:48,delivered,Warehouse South,Zone B,12.5,3.95,Van,52.47,None recorded
+ORD-00055,2026-10-04 07:47:00,2026-10-04 11:36:48,2026-10-04 09:08:00,delivered,Warehouse North,Zone F,17.8,0.83,Bike,62.09,None recorded
+ORD-00056,2026-10-05 14:51:00,2026-10-05 19:03:36,2026-10-05 18:58:12,delivered,Warehouse Central,Zone C,30.2,6.41,Van,113.7,None recorded
+ORD-00057,2026-10-15 13:40:00,2026-10-15 18:02:12,2026-10-15 16:38:48,delivered,Warehouse North,Zone E,14.8,2.9,Van,71.88,None recorded
+ORD-00058,2026-10-11 14:22:00,2026-10-11 17:45:24,2026-10-11 17:35:12,delivered,Warehouse South,Zone C,17.9,2.18,Van,76.5,None recorded
+ORD-00059,2026-10-10 14:31:00,2026-10-10 19:59:48,2026-10-10 19:37:00,delivered,Warehouse Central,Zone C,36.9,5.52,Bike,125.91,None recorded
+ORD-00060,2026-10-27 08:42:00,2026-10-27 11:12:00,2026-10-27 10:26:24,delivered,Warehouse North,Zone D,4.1,6.7,Van,44.94,None recorded
+ORD-00061,2026-10-24 14:38:00,2026-10-24 16:23:36,,cancelled,Warehouse Central,Zone C,9.6,3.98,Van,55.05,Not applicable
+ORD-00062,2026-10-08 17:02:00,2026-10-08 19:34:24,2026-10-08 18:12:48,delivered,Warehouse South,Zone A,3.1,3.25,Van,47.0,None recorded
+ORD-00063,2026-10-03 12:34:00,2026-10-03 14:54:24,2026-10-03 13:56:12,delivered,Warehouse North,Zone D,8.8,5.27,Van,73.59,None recorded
+ORD-00064,2026-10-29 12:01:00,2026-10-29 15:40:36,2026-10-29 13:33:24,delivered,Warehouse South,Zone B,35.8,3.82,Bike,126.81,None recorded
+ORD-00065,2026-10-04 16:49:00,2026-10-04 19:44:12,,cancelled,Warehouse North,Zone A,6.5,15.27,Van,87.54,Not applicable
+ORD-00066,2026-10-10 17:52:00,2026-10-10 22:08:12,2026-10-10 22:13:00,delivered,Warehouse North,Zone F,43.0,1.96,Bike,134.58,High order volume
+ORD-00067,2026-10-27 14:02:00,2026-10-27 18:23:36,2026-10-27 18:59:36,delivered,Warehouse South,Zone C,35.5,11.71,Van,121.99,Traffic
+ORD-00068,2026-10-18 15:52:00,2026-10-18 16:52:00,2026-10-18 16:54:24,delivered,Warehouse South,Zone A,5.7,2.61,Van,49.62,High order volume
+ORD-00069,2026-10-30 08:09:00,2026-10-30 13:10:12,,in transit,Warehouse Central,Zone B,17.5,1.37,Van,73.33,Not applicable
+ORD-00070,2026-10-05 11:36:00,2026-10-05 14:15:36,2026-10-05 13:13:12,delivered,Warehouse South,Zone B,3.1,3.51,Bike,51.07,None recorded
+ORD-00071,2026-10-18 10:49:00,2026-10-18 14:12:24,2026-10-18 12:01:00,delivered,Warehouse Central,Zone D,15.7,6.04,Van,79.24,None recorded
+ORD-00072,2026-10-01 10:36:00,2026-10-01 12:28:48,2026-10-01 11:15:36,delivered,Warehouse Central,Zone C,6.1,5.77,Bike,74.94,None recorded
+ORD-00073,2026-10-08 08:02:00,2026-10-08 11:38:36,2026-10-08 10:09:48,delivered,Warehouse Central,Zone B,13.7,6.17,Van,81.37,None recorded
+ORD-00074,2026-10-08 08:59:00,2026-10-08 11:29:36,2026-10-08 12:09:12,delivered,Warehouse South,Zone C,19.3,1.01,Van,84.37,High order volume
+ORD-00075,2026-10-14 07:36:00,2026-10-14 10:10:47,2026-10-14 10:46:48,delivered,Warehouse North,Zone E,16.4,6.0,Van,100.18,Traffic
+ORD-00076,2026-10-01 09:36:00,2026-10-01 14:24:36,2026-10-01 12:34:12,delivered,Warehouse North,Zone E,46.4,1.07,Bike,130.53,None recorded
+ORD-00077,2026-10-06 14:20:00,2026-10-06 17:03:12,2026-10-06 16:27:48,delivered,Warehouse Central,Zone F,15.9,3.99,Bike,63.37,None recorded
+ORD-00078,2026-10-17 14:24:00,2026-10-17 19:06:00,2026-10-17 18:30:36,delivered,Warehouse North,Zone E,26.6,3.94,Bike,92.6,None recorded
+ORD-00079,2026-10-16 16:00:00,2026-10-16 18:15:00,2026-10-16 17:45:00,delivered,Warehouse Central,Zone C,21.1,1.8,Bike,86.63,None recorded
+ORD-00080,2026-10-17 11:09:00,2026-10-17 13:12:00,2026-10-17 12:11:24,delivered,Warehouse South,Zone D,6.7,3.26,Bike,47.86,None recorded
+ORD-00081,2026-10-28 13:06:00,2026-10-28 18:01:12,2026-10-28 16:33:36,delivered,Warehouse Central,Zone A,17.8,5.6,Bike,92.72,None recorded
+ORD-00082,2026-10-07 08:49:00,2026-10-07 10:20:12,2026-10-07 11:37:00,delivered,Warehouse Central,Zone F,4.6,1.58,Van,62.62,Route issue
+ORD-00083,2026-10-19 11:37:00,2026-10-19 16:23:12,2026-10-19 13:34:36,delivered,Warehouse North,Zone B,20.7,9.51,Bike,96.23,None recorded
+ORD-00084,2026-10-24 13:26:00,2026-10-24 18:03:48,2026-10-24 16:18:48,delivered,Warehouse North,Zone D,15.8,9.93,Bike,94.42,None recorded
+ORD-00085,2026-10-07 13:19:00,2026-10-07 17:00:24,2026-10-07 16:31:36,delivered,Warehouse Central,Zone F,21.0,1.07,Bike,78.59,None recorded
+ORD-00086,2026-10-28 10:42:00,2026-10-28 14:58:48,2026-10-28 13:14:24,delivered,Warehouse South,Zone E,16.1,5.19,Van,83.94,None recorded
+ORD-00087,2026-10-09 13:19:00,2026-10-09 15:47:48,2026-10-09 14:25:00,delivered,Warehouse South,Zone E,20.8,7.61,Bike,94.55,None recorded
+ORD-00088,2026-10-29 16:26:00,2026-10-29 17:51:12,2026-10-29 17:55:24,delivered,Warehouse Central,Zone C,7.9,6.42,Bike,58.69,Route issue
+ORD-00089,2026-10-26 10:27:00,2026-10-26 14:51:00,2026-10-26 12:33:00,delivered,Warehouse Central,Zone A,13.5,4.03,Van,74.99,None recorded
+ORD-00090,2026-10-16 11:00:00,2026-10-16 12:00:00,2026-10-16 13:49:48,delivered,Warehouse North,Zone D,6.8,0.46,Van,55.34,Traffic
+ORD-00091,2026-10-23 09:31:00,2026-10-23 14:38:12,2026-10-23 15:08:12,delivered,Warehouse South,Zone B,65.0,2.68,Bike,183.01,Traffic
+ORD-00092,2026-10-20 15:22:00,2026-10-20 17:32:48,,in transit,Warehouse Central,Zone C,10.6,11.8,Truck,75.54,Not applicable
+ORD-00093,2026-10-10 10:06:00,2026-10-10 14:25:12,2026-10-10 11:30:36,delivered,Warehouse Central,Zone A,6.4,1.83,Bike,36.14,None recorded
+ORD-00094,2026-10-17 11:15:00,2026-10-17 15:22:12,2026-10-17 16:19:12,delivered,Warehouse North,Zone F,37.8,1.05,Bike,119.26,Traffic
+ORD-00095,2026-10-20 10:11:00,2026-10-20 13:01:24,2026-10-20 13:26:00,delivered,Warehouse South,Zone C,25.3,1.83,Bike,80.99,High order volume
+ORD-00096,2026-10-16 08:56:00,2026-10-16 13:09:12,2026-10-16 13:10:24,delivered,Warehouse South,Zone E,28.6,3.06,Van,113.09,Route issue
+ORD-00097,2026-10-15 11:03:00,2026-10-15 14:12:00,2026-10-15 14:35:24,delivered,Warehouse South,Zone F,22.2,7.95,Bike,97.64,Other
+ORD-00098,2026-10-07 11:09:00,2026-10-07 14:04:48,,cancelled,Warehouse Central,Zone A,10.6,4.52,Van,62.59,Not applicable
+ORD-00099,2026-10-17 09:32:00,2026-10-17 13:20:36,2026-10-17 12:22:24,delivered,Warehouse South,Zone D,30.5,0.89,Van,103.75,None recorded
+ORD-00100,2026-10-12 10:21:00,2026-10-12 13:31:12,2026-10-12 10:54:00,delivered,Warehouse North,Zone C,6.4,4.25,Bike,53.27,None recorded
+ORD-00101,2026-10-24 17:53:00,2026-10-24 19:25:24,2026-10-24 21:57:12,delivered,Warehouse Central,Zone B,5.1,3.1,Van,43.36,Route issue
+ORD-00102,2026-10-07 13:38:00,2026-10-07 15:02:36,,in transit,Warehouse North,Zone A,3.4,5.49,Bike,36.23,Not applicable
+ORD-00103,2026-10-25 16:25:00,2026-10-25 20:04:36,2026-10-25 20:26:48,delivered,Warehouse South,Zone E,30.1,3.99,Bike,100.92,Traffic
+ORD-00104,2026-10-21 12:32:00,2026-10-21 14:50:00,2026-10-21 14:38:00,delivered,Warehouse Central,Zone B,5.1,6.23,Van,50.98,None recorded
+ORD-00105,2026-10-13 08:50:00,2026-10-13 14:15:48,2026-10-13 10:30:48,delivered,Warehouse South,Zone A,9.9,3.02,Bike,60.34,None recorded
+ORD-00106,2026-10-01 07:54:00,2026-10-01 10:21:00,2026-10-01 09:01:12,delivered,Warehouse North,Zone C,7.2,2.86,Bike,55.07,None recorded
+ORD-00107,2026-10-20 09:51:00,2026-10-20 15:09:00,2026-10-20 14:30:00,delivered,Warehouse North,Zone B,55.3,0.93,Van,183.2,None recorded
+ORD-00108,2026-10-13 09:25:00,2026-10-13 13:32:48,2026-10-13 11:46:36,delivered,Warehouse North,Zone E,16.8,9.8,Bike,88.46,None recorded
+ORD-00109,2026-10-22 17:56:00,2026-10-22 21:03:12,2026-10-22 20:02:36,delivered,Warehouse South,Zone D,12.6,2.57,Bike,82.08,None recorded
+ORD-00110,2026-10-19 16:22:00,2026-10-19 19:56:47,2026-10-19 18:28:00,delivered,Warehouse Central,Zone E,21.0,7.22,Bike,88.88,None recorded
+ORD-00111,2026-10-18 17:51:00,2026-10-18 19:32:24,,cancelled,Warehouse Central,Zone B,10.3,2.3,Bike,59.97,Not applicable
+ORD-00112,2026-10-27 10:29:00,2026-10-27 12:42:12,2026-10-27 12:14:00,delivered,Warehouse South,Zone E,7.6,8.0,Van,83.86,None recorded
+ORD-00113,2026-10-16 08:18:00,2026-10-16 11:06:36,2026-10-16 09:54:00,delivered,Warehouse Central,Zone E,7.5,1.36,Truck,78.06,None recorded
+ORD-00114,2026-10-25 11:02:00,2026-10-25 15:39:12,2026-10-25 17:41:36,delivered,Warehouse North,Zone A,58.3,4.79,Truck,192.84,Weather
+ORD-00115,2026-10-18 11:26:00,2026-10-18 12:47:36,2026-10-18 13:11:00,delivered,Warehouse Central,Zone A,13.8,10.57,Bike,83.13,Traffic
+ORD-00116,2026-10-22 08:37:00,2026-10-22 11:55:00,2026-10-22 10:56:12,delivered,Warehouse South,Zone B,12.0,6.53,Van,58.9,None recorded
+ORD-00117,2026-10-28 15:34:00,2026-10-28 18:32:48,,in transit,Warehouse North,Zone A,11.0,6.17,Bike,62.74,Not applicable
+ORD-00118,2026-10-29 10:50:00,2026-10-29 16:10:24,2026-10-29 13:54:12,delivered,Warehouse Central,Zone A,23.3,6.72,Bike,102.72,None recorded
+ORD-00119,2026-10-30 09:46:00,2026-10-30 12:31:36,2026-10-30 12:34:36,delivered,Warehouse Central,Zone A,30.2,2.65,Bike,116.97,Other
+ORD-00120,2026-10-18 13:44:00,2026-10-18 17:24:12,,cancelled,Warehouse North,Zone E,3.5,1.77,Bike,42.81,Not applicable
+ORD-00121,2026-10-15 11:45:00,2026-10-15 17:36:36,2026-10-15 14:25:12,delivered,Warehouse Central,Zone E,43.1,2.74,Truck,137.75,None recorded
+ORD-00122,2026-10-03 08:52:00,2026-10-03 12:46:00,2026-10-03 11:29:12,delivered,Warehouse North,Zone B,11.7,4.95,Van,51.69,None recorded
+ORD-00123,2026-10-01 09:26:00,2026-10-01 12:00:11,2026-10-01 12:28:24,delivered,Warehouse South,Zone E,16.1,9.15,Bike,71.43,Route issue
+ORD-00124,2026-10-09 16:38:00,2026-10-09 18:15:12,2026-10-09 18:36:12,delivered,Warehouse South,Zone D,8.2,1.66,Bike,63.73,Traffic
+ORD-00125,2026-10-29 13:49:00,2026-10-29 15:32:48,2026-10-29 16:20:48,delivered,Warehouse Central,Zone D,10.3,1.65,Van,68.72,Other
+ORD-00126,2026-10-04 12:00:00,2026-10-04 13:48:36,2026-10-04 14:20:24,delivered,Warehouse Central,Zone C,15.8,1.27,Van,81.48,Weather
+ORD-00127,2026-10-27 08:24:00,2026-10-27 12:13:48,2026-10-27 12:01:12,delivered,Warehouse North,Zone F,24.8,1.76,Truck,113.34,None recorded
+ORD-00128,2026-10-11 17:53:00,2026-10-11 19:17:36,2026-10-11 19:02:36,delivered,Warehouse North,Zone B,4.7,1.28,Bike,44.92,None recorded
+ORD-00129,2026-10-18 13:29:00,2026-10-18 18:30:48,2026-10-18 16:24:12,delivered,Warehouse North,Zone F,22.6,2.13,Van,66.99,None recorded
+ORD-00130,2026-10-24 11:01:00,2026-10-24 13:33:24,2026-10-24 12:28:36,delivered,Warehouse Central,Zone A,14.2,1.5,Bike,69.16,None recorded
+ORD-00131,2026-10-14 13:01:00,2026-10-14 16:02:12,2026-10-14 15:05:48,delivered,Warehouse South,Zone B,13.4,4.33,Van,83.56,None recorded
+ORD-00132,2026-10-10 17:39:00,2026-10-11 00:42:36,2026-10-10 21:04:12,delivered,Warehouse South,Zone A,49.9,0.75,Van,149.27,None recorded
+ORD-00133,2026-10-15 14:03:00,2026-10-15 16:21:36,2026-10-15 15:25:48,delivered,Warehouse South,Zone F,6.4,7.71,Bike,50.0,None recorded
+ORD-00134,2026-10-12 11:08:00,2026-10-12 15:36:12,2026-10-12 14:52:24,delivered,Warehouse North,Zone A,33.8,2.65,Bike,119.52,None recorded
+ORD-00135,2026-10-01 09:50:00,2026-10-01 12:13:24,2026-10-01 12:00:48,delivered,Warehouse South,Zone F,23.3,2.11,Van,93.16,None recorded
+ORD-00136,2026-10-24 08:34:00,2026-10-24 11:32:12,2026-10-24 11:24:24,delivered,Warehouse North,Zone F,11.0,12.99,Bike,86.61,None recorded
+ORD-00137,2026-10-18 15:49:00,2026-10-18 19:54:24,2026-10-18 19:10:00,delivered,Warehouse Central,Zone C,34.9,3.44,Van,149.05,None recorded
+ORD-00138,2026-10-23 10:36:00,2026-10-23 14:17:24,2026-10-23 13:38:24,delivered,Warehouse South,Zone D,15.9,5.87,Bike,87.38,None recorded
+ORD-00139,2026-10-08 08:58:00,2026-10-08 12:32:47,2026-10-08 10:02:48,delivered,Warehouse South,Zone A,1.6,6.42,Van,59.47,None recorded
+ORD-00140,2026-10-19 08:40:00,2026-10-19 09:40:00,2026-10-19 10:56:48,delivered,Warehouse South,Zone D,23.5,5.38,Truck,122.36,Weather
+ORD-00141,2026-10-14 12:16:00,2026-10-14 16:44:48,2026-10-14 15:55:36,delivered,Warehouse North,Zone D,32.4,12.07,Truck,138.07,None recorded
+ORD-00142,2026-10-01 08:21:00,2026-10-01 12:14:24,2026-10-01 10:57:36,delivered,Warehouse South,Zone D,20.5,2.94,Truck,98.31,None recorded
+ORD-00143,2026-10-17 11:23:00,2026-10-17 14:28:24,2026-10-17 13:51:48,delivered,Warehouse South,Zone C,21.2,2.31,Bike,85.32,None recorded
+ORD-00144,2026-10-07 07:44:00,2026-10-07 11:39:48,2026-10-07 10:36:12,delivered,Warehouse South,Zone D,26.9,4.28,Van,94.13,None recorded
+ORD-00145,2026-10-29 11:54:00,2026-10-29 14:59:24,2026-10-29 14:45:00,delivered,Warehouse Central,Zone A,5.5,3.35,Truck,80.95,None recorded
+ORD-00146,2026-10-16 16:47:00,2026-10-16 19:15:48,2026-10-16 19:22:24,delivered,Warehouse South,Zone D,10.4,4.18,Bike,65.67,Weather
+ORD-00147,2026-10-17 08:39:00,2026-10-17 12:39:36,,in transit,Warehouse Central,Zone E,14.0,12.2,Bike,73.72,Not applicable
+ORD-00148,2026-10-06 11:45:00,2026-10-06 15:58:48,2026-10-06 14:15:00,delivered,Warehouse North,Zone B,17.0,3.43,Bike,71.97,None recorded
+ORD-00149,2026-10-05 12:53:00,2026-10-05 15:55:24,2026-10-05 15:08:36,delivered,Warehouse Central,Zone E,12.8,2.95,Truck,92.42,None recorded
+ORD-00150,2026-10-09 13:37:00,2026-10-09 14:44:48,2026-10-09 14:08:48,delivered,Warehouse South,Zone E,3.2,2.96,Truck,70.29,None recorded
+ORD-00151,2026-10-13 09:43:00,2026-10-13 13:04:36,2026-10-13 12:31:36,delivered,Warehouse North,Zone F,7.6,4.74,Bike,62.93,None recorded
+ORD-00152,2026-10-23 07:08:00,2026-10-23 09:56:36,2026-10-23 09:00:48,delivered,Warehouse North,Zone B,15.0,2.48,Bike,70.11,None recorded
+ORD-00153,2026-10-28 10:52:00,2026-10-28 15:18:24,2026-10-28 13:24:24,delivered,Warehouse North,Zone A,41.2,4.21,Bike,117.73,None recorded
+ORD-00154,2026-10-05 15:49:00,2026-10-05 19:56:48,2026-10-05 19:32:12,delivered,Warehouse North,Zone A,29.5,13.07,Bike,126.39,None recorded
+ORD-00155,2026-10-05 16:40:00,2026-10-05 18:23:12,2026-10-05 19:23:48,delivered,Warehouse Central,Zone C,24.7,5.95,Bike,75.54,High order volume
+ORD-00156,2026-10-14 13:40:00,2026-10-14 18:05:12,,cancelled,Warehouse Central,Zone A,8.8,4.39,Bike,49.08,Not applicable
+ORD-00157,2026-10-07 08:41:00,2026-10-07 12:03:48,2026-10-07 10:07:24,delivered,Warehouse South,Zone A,4.6,12.92,Van,57.44,None recorded
+ORD-00158,2026-10-26 13:40:00,2026-10-26 16:26:12,2026-10-26 14:19:36,delivered,Warehouse South,Zone E,13.2,5.8,Bike,91.86,None recorded
+ORD-00159,2026-10-12 07:47:00,2026-10-12 11:41:00,2026-10-12 11:24:12,delivered,Warehouse Central,Zone C,31.6,2.95,Bike,113.24,None recorded
+ORD-00160,2026-10-13 15:02:00,2026-10-13 19:51:48,2026-10-13 19:35:36,delivered,Warehouse North,Zone B,55.7,1.3,Van,161.18,None recorded
+ORD-00161,2026-10-06 15:12:00,2026-10-06 18:02:24,2026-10-06 19:04:12,delivered,Warehouse Central,Zone E,25.2,2.58,Van,85.77,Route issue
+ORD-00162,2026-10-13 07:16:00,2026-10-13 09:10:00,,cancelled,Warehouse North,Zone B,10.6,3.19,Bike,69.01,Not applicable
+ORD-00163,2026-10-27 15:52:00,2026-10-27 18:41:48,2026-10-27 16:13:00,delivered,Warehouse South,Zone E,3.9,0.63,Bike,39.0,None recorded
+ORD-00164,2026-10-03 11:28:00,2026-10-03 13:07:36,2026-10-03 13:20:12,delivered,Warehouse South,Zone A,10.0,0.59,Van,67.54,Traffic
+ORD-00165,2026-10-13 13:59:00,2026-10-13 15:23:00,2026-10-13 14:20:00,delivered,Warehouse South,Zone A,4.0,1.26,Bike,37.3,None recorded
+ORD-00166,2026-10-18 13:21:00,2026-10-18 15:58:12,2026-10-18 17:02:24,delivered,Warehouse North,Zone B,29.1,5.76,Truck,132.46,Other
+ORD-00167,2026-10-09 08:39:00,2026-10-09 15:03:36,2026-10-09 12:44:24,delivered,Warehouse South,Zone F,45.1,1.63,Truck,153.12,None recorded
+ORD-00168,2026-10-12 17:44:00,2026-10-12 19:16:24,2026-10-12 18:46:24,delivered,Warehouse Central,Zone C,6.5,2.39,Bike,62.68,None recorded
+ORD-00169,2026-10-18 07:28:00,2026-10-18 09:32:48,2026-10-18 09:30:24,delivered,Warehouse North,Zone D,17.8,7.33,Truck,102.87,None recorded
+ORD-00170,2026-10-18 16:57:00,2026-10-18 19:13:12,2026-10-18 20:54:00,delivered,Warehouse Central,Zone F,7.8,1.43,Van,49.95,Other
+ORD-00171,2026-10-06 09:48:00,2026-10-06 11:23:24,,in transit,Warehouse Central,Zone C,3.4,8.93,Van,58.69,Not applicable
+ORD-00172,2026-10-22 09:03:00,2026-10-22 14:42:00,2026-10-22 13:54:00,delivered,Warehouse North,Zone E,56.5,2.4,Van,181.18,None recorded
+ORD-00173,2026-10-10 10:09:00,2026-10-10 14:33:00,2026-10-10 13:49:12,delivered,Warehouse North,Zone D,27.6,1.88,Bike,112.86,None recorded
+ORD-00174,2026-10-25 14:28:00,2026-10-25 17:05:48,2026-10-25 18:19:36,delivered,Warehouse North,Zone B,17.4,3.42,Van,95.95,Route issue
+ORD-00175,2026-10-03 10:39:00,2026-10-03 13:21:36,2026-10-03 11:48:00,delivered,Warehouse North,Zone B,7.4,3.29,Bike,71.44,None recorded
+ORD-00176,2026-10-17 13:50:00,2026-10-17 17:42:12,2026-10-17 15:20:00,delivered,Warehouse South,Zone E,15.0,1.94,Truck,91.06,None recorded
+ORD-00177,2026-10-22 13:16:00,2026-10-22 16:26:12,2026-10-22 16:59:12,delivered,Warehouse Central,Zone C,5.1,4.02,Van,41.1,Other
+ORD-00178,2026-10-10 13:58:00,2026-10-10 18:26:12,,in transit,Warehouse North,Zone C,47.4,2.86,Bike,142.61,Not applicable
+ORD-00179,2026-10-13 15:53:00,2026-10-13 19:03:12,2026-10-13 17:51:12,delivered,Warehouse North,Zone C,13.4,8.97,Van,79.79,None recorded
+ORD-00180,2026-10-14 17:47:00,2026-10-14 22:54:48,2026-10-14 20:30:12,delivered,Warehouse Central,Zone F,33.2,2.48,Bike,114.66,None recorded
+ORD-00181,2026-10-14 14:43:00,2026-10-14 16:56:48,2026-10-14 16:34:00,delivered,Warehouse South,Zone C,7.8,4.88,Van,65.92,None recorded
+ORD-00182,2026-10-20 10:33:00,2026-10-20 14:19:48,2026-10-20 13:16:48,delivered,Warehouse Central,Zone D,8.3,2.66,Bike,69.15,None recorded
+ORD-00183,2026-10-10 16:46:00,2026-10-10 20:33:24,2026-10-10 17:35:12,delivered,Warehouse North,Zone B,1.3,2.12,Van,39.02,None recorded
+ORD-00184,2026-10-03 09:38:00,2026-10-03 12:29:00,2026-10-03 11:18:12,delivered,Warehouse North,Zone C,8.5,2.93,Van,65.67,None recorded
+ORD-00185,2026-10-10 17:47:00,2026-10-10 21:31:24,2026-10-10 18:09:12,delivered,Warehouse Central,Zone C,7.2,2.94,Bike,53.0,None recorded
+ORD-00186,2026-10-16 17:03:00,2026-10-16 19:26:24,2026-10-16 21:07:12,delivered,Warehouse North,Zone D,36.9,4.3,Van,117.99,High order volume
+ORD-00187,2026-10-26 08:19:00,2026-10-26 12:19:00,2026-10-26 10:39:24,delivered,Warehouse North,Zone E,19.8,3.52,Van,87.67,None recorded
+ORD-00188,2026-10-28 12:18:00,2026-10-28 14:50:24,2026-10-28 14:09:00,delivered,Warehouse South,Zone A,7.7,6.26,Bike,57.5,None recorded
+ORD-00189,2026-10-23 13:39:00,2026-10-23 18:46:48,2026-10-23 19:17:24,delivered,Warehouse South,Zone C,54.6,0.23,Truck,174.94,High order volume
+ORD-00190,2026-10-30 16:09:00,2026-10-30 18:03:36,2026-10-30 18:55:12,delivered,Warehouse South,Zone D,5.8,9.22,Van,67.46,Traffic
+ORD-00191,2026-10-06 08:33:00,2026-10-06 12:22:12,2026-10-06 13:02:24,delivered,Warehouse Central,Zone D,27.4,2.81,Bike,98.64,High order volume
+ORD-00192,2026-10-04 10:28:00,2026-10-04 15:35:48,2026-10-04 13:04:36,delivered,Warehouse North,Zone F,14.6,3.02,Bike,63.55,None recorded
+ORD-00193,2026-10-09 12:22:00,2026-10-09 16:55:00,2026-10-09 14:46:36,delivered,Warehouse South,Zone D,22.1,6.49,Van,99.94,None recorded
+ORD-00194,2026-10-10 17:17:00,2026-10-10 21:43:24,2026-10-10 19:10:24,delivered,Warehouse South,Zone D,1.9,5.45,Van,49.78,None recorded
+ORD-00195,2026-10-17 07:25:00,2026-10-17 09:41:48,2026-10-17 09:42:23,delivered,Warehouse Central,Zone D,11.5,5.43,Van,65.81,Other
+ORD-00196,2026-10-07 12:09:00,2026-10-07 14:36:36,2026-10-07 13:19:12,delivered,Warehouse South,Zone F,9.2,6.14,Bike,65.84,None recorded
+ORD-00197,2026-10-26 17:05:00,2026-10-26 21:17:36,2026-10-26 20:56:00,delivered,Warehouse South,Zone B,37.1,15.57,Van,154.88,None recorded
+ORD-00198,2026-10-29 08:15:00,2026-10-29 12:52:48,,cancelled,Warehouse Central,Zone C,35.3,5.98,Bike,112.21,Not applicable
+ORD-00199,2026-10-11 12:21:00,2026-10-11 16:22:12,2026-10-11 15:00:36,delivered,Warehouse Central,Zone D,28.1,1.86,Bike,105.87,None recorded
+ORD-00200,2026-10-09 13:22:00,2026-10-09 15:49:00,2026-10-09 15:56:47,delivered,Warehouse North,Zone C,20.7,1.23,Van,91.5,High order volume
+ORD-00201,2026-10-18 07:33:00,2026-10-18 10:46:48,,in transit,Warehouse South,Zone C,11.5,2.8,Bike,77.63,Not applicable
+ORD-00202,2026-10-13 08:45:00,2026-10-13 13:16:48,2026-10-13 10:12:00,delivered,Warehouse South,Zone C,17.4,2.06,Bike,71.24,None recorded
+ORD-00203,2026-10-09 09:52:00,2026-10-09 11:20:12,2026-10-09 10:43:36,delivered,Warehouse South,Zone F,12.4,4.73,Bike,71.57,None recorded
+ORD-00204,2026-10-01 12:58:00,2026-10-01 18:25:36,2026-10-01 17:27:24,delivered,Warehouse Central,Zone F,33.1,4.77,Bike,110.59,None recorded
+ORD-00205,2026-10-17 09:43:00,2026-10-17 13:20:12,2026-10-17 11:53:12,delivered,Warehouse South,Zone D,24.5,4.41,Van,92.38,None recorded
+ORD-00206,2026-10-23 08:59:00,2026-10-23 11:39:12,2026-10-23 11:00:48,delivered,Warehouse South,Zone A,7.2,3.99,Bike,56.92,None recorded
+ORD-00207,2026-10-20 13:24:00,2026-10-20 16:24:00,2026-10-20 16:34:48,delivered,Warehouse North,Zone E,17.9,6.5,Van,81.86,Other
+ORD-00208,2026-10-01 08:14:00,2026-10-01 10:26:36,2026-10-01 09:23:00,delivered,Warehouse Central,Zone C,17.7,4.37,Van,83.12,None recorded
+ORD-00209,2026-10-30 07:24:00,2026-10-30 11:45:00,2026-10-30 09:44:24,delivered,Warehouse South,Zone E,14.7,4.92,Van,77.07,None recorded
+ORD-00210,2026-10-17 16:44:00,2026-10-17 19:49:24,2026-10-17 18:14:00,delivered,Warehouse North,Zone B,12.5,1.5,Bike,65.7,None recorded
+ORD-00211,2026-10-01 15:30:00,2026-10-01 17:53:24,,cancelled,Warehouse Central,Zone A,16.2,1.92,Van,81.68,Not applicable
+ORD-00212,2026-10-17 17:31:00,2026-10-17 21:41:48,,in transit,Warehouse South,Zone A,9.4,4.73,Bike,48.07,Not applicable
+ORD-00213,2026-10-20 14:50:00,2026-10-20 20:19:24,2026-10-20 18:12:12,delivered,Warehouse Central,Zone D,29.8,2.44,Bike,118.35,None recorded
+ORD-00214,2026-10-05 16:06:00,2026-10-05 17:28:48,2026-10-05 19:13:48,delivered,Warehouse North,Zone E,9.0,3.16,Bike,72.33,Traffic
+ORD-00215,2026-10-23 07:42:00,2026-10-23 10:11:24,2026-10-23 10:19:12,delivered,Warehouse Central,Zone A,24.5,4.94,Bike,102.94,High order volume
+ORD-00216,2026-10-15 11:09:00,2026-10-15 12:45:36,2026-10-15 11:35:24,delivered,Warehouse North,Zone C,1.0,1.21,Bike,36.89,None recorded
+ORD-00217,2026-10-08 17:22:00,2026-10-08 21:17:48,2026-10-08 19:50:48,delivered,Warehouse Central,Zone E,20.9,5.9,Truck,94.46,None recorded
+ORD-00218,2026-10-17 17:23:00,2026-10-17 21:32:00,2026-10-17 17:56:00,delivered,Warehouse North,Zone A,3.3,3.16,Bike,56.21,None recorded
+ORD-00219,2026-10-24 17:41:00,2026-10-24 21:59:00,2026-10-24 20:33:12,delivered,Warehouse North,Zone E,33.2,0.82,Van,115.84,None recorded
+ORD-00220,2026-10-23 13:15:00,2026-10-23 14:15:00,2026-10-23 15:47:24,delivered,Warehouse South,Zone E,11.3,8.41,Van,71.86,Traffic
+ORD-00221,2026-10-08 16:06:00,2026-10-08 19:28:12,,in transit,Warehouse Central,Zone F,9.6,6.4,Truck,81.39,Not applicable
+ORD-00222,2026-10-21 07:29:00,2026-10-21 10:27:48,2026-10-21 09:47:00,delivered,Warehouse South,Zone E,2.7,1.62,Bike,42.16,None recorded
+ORD-00223,2026-10-21 11:42:00,2026-10-21 14:57:36,2026-10-21 13:11:24,delivered,Warehouse North,Zone B,1.8,13.72,Truck,49.87,None recorded
+ORD-00224,2026-10-23 07:12:00,2026-10-23 10:37:12,2026-10-23 08:07:48,delivered,Warehouse South,Zone B,12.9,0.46,Van,56.66,None recorded
+ORD-00225,2026-10-26 12:51:00,2026-10-26 16:52:48,2026-10-26 14:18:36,delivered,Warehouse South,Zone E,10.3,1.52,Van,55.43,None recorded
+ORD-00226,2026-10-19 12:15:00,2026-10-19 16:09:00,2026-10-19 14:54:36,delivered,Warehouse North,Zone C,17.7,7.69,Bike,86.64,None recorded
+ORD-00227,2026-10-17 09:52:00,2026-10-17 13:44:12,2026-10-17 13:44:12,delivered,Warehouse North,Zone E,35.8,8.76,Bike,123.69,None recorded
+ORD-00228,2026-10-01 09:34:00,2026-10-01 11:53:12,,in transit,Warehouse South,Zone C,12.8,7.45,Bike,69.89,Not applicable
+ORD-00229,2026-10-29 11:09:00,2026-10-29 14:37:48,2026-10-29 12:58:12,delivered,Warehouse North,Zone B,18.5,5.26,Bike,90.08,None recorded
+ORD-00230,2026-10-17 07:39:00,2026-10-17 11:46:48,2026-10-17 09:21:00,delivered,Warehouse Central,Zone B,8.2,2.43,Van,69.27,None recorded
+ORD-00231,2026-10-04 11:35:00,2026-10-04 12:44:36,2026-10-04 11:56:00,delivered,Warehouse North,Zone A,6.1,0.53,Bike,61.03,None recorded
+ORD-00232,2026-10-04 11:37:00,2026-10-04 16:55:00,2026-10-04 15:04:00,delivered,Warehouse Central,Zone F,24.8,4.63,Bike,108.05,None recorded
+ORD-00233,2026-10-21 17:45:00,2026-10-21 20:18:36,2026-10-21 19:45:36,delivered,Warehouse Central,Zone B,15.9,0.94,Bike,54.17,None recorded
+ORD-00234,2026-10-19 13:38:00,2026-10-19 14:48:12,2026-10-19 15:27:12,delivered,Warehouse North,Zone C,9.9,10.19,Truck,87.39,Other
+ORD-00235,2026-10-27 14:48:00,2026-10-27 18:36:36,,cancelled,Warehouse Central,Zone C,9.1,4.29,Van,53.93,Not applicable
+ORD-00236,2026-10-03 07:30:00,2026-10-03 11:40:48,2026-10-03 08:44:24,delivered,Warehouse South,Zone D,15.3,3.87,Bike,72.03,None recorded
+ORD-00237,2026-10-10 07:42:00,2026-10-10 10:59:23,2026-10-10 09:45:36,delivered,Warehouse South,Zone B,17.0,1.4,Bike,66.25,None recorded
+ORD-00238,2026-10-02 17:21:00,2026-10-02 20:19:12,2026-10-02 18:59:24,delivered,Warehouse North,Zone B,5.7,2.07,Bike,44.06,None recorded
+ORD-00239,2026-10-06 11:07:00,2026-10-06 14:16:00,2026-10-06 13:30:24,delivered,Warehouse Central,Zone D,9.2,0.5,Van,52.97,None recorded
+ORD-00240,2026-10-29 17:44:00,2026-10-29 22:58:24,2026-10-29 21:47:00,delivered,Warehouse South,Zone C,42.6,2.95,Bike,129.69,None recorded
+ORD-00241,2026-10-30 12:15:00,2026-10-30 14:47:24,2026-10-30 15:39:00,delivered,Warehouse North,Zone B,9.3,3.28,Van,59.58,Other
+ORD-00242,2026-10-02 11:19:00,2026-10-02 15:53:47,2026-10-02 14:35:12,delivered,Warehouse North,Zone C,34.0,2.48,Bike,120.27,None recorded
+ORD-00243,2026-10-10 09:53:00,2026-10-10 15:08:00,2026-10-10 14:29:00,delivered,Warehouse North,Zone F,50.1,1.74,Bike,155.26,None recorded
+ORD-00244,2026-10-09 09:36:00,2026-10-09 13:54:36,2026-10-09 10:33:36,delivered,Warehouse South,Zone E,12.5,1.08,Van,72.05,None recorded
+ORD-00245,2026-10-29 12:35:00,2026-10-29 15:47:00,,in transit,Warehouse North,Zone B,9.1,14.21,Bike,62.58,Not applicable
+ORD-00246,2026-10-18 14:11:00,2026-10-18 19:18:12,2026-10-18 17:02:36,delivered,Warehouse Central,Zone C,16.0,3.29,Van,86.05,None recorded
+ORD-00247,2026-10-09 13:28:00,2026-10-09 16:46:36,2026-10-09 16:51:24,delivered,Warehouse South,Zone D,19.5,4.56,Truck,87.07,High order volume
+ORD-00248,2026-10-25 15:12:00,2026-10-25 18:07:12,2026-10-25 17:35:24,delivered,Warehouse South,Zone C,12.1,3.82,Van,69.94,None recorded
+ORD-00249,2026-10-10 07:47:00,2026-10-10 10:42:12,,cancelled,Warehouse North,Zone F,4.8,0.8,Van,50.02,Not applicable
+ORD-00250,2026-10-16 10:15:00,2026-10-16 12:37:12,2026-10-16 12:04:48,delivered,Warehouse North,Zone E,16.4,8.95,Bike,93.01,None recorded
+ORD-00251,2026-10-02 08:23:00,2026-10-02 12:29:00,,cancelled,Warehouse Central,Zone F,7.1,1.7,Van,53.08,Not applicable
+ORD-00252,2026-10-04 16:55:00,2026-10-04 21:10:36,2026-10-04 21:16:00,delivered,Warehouse North,Zone E,30.6,5.23,Van,104.77,Weather
+ORD-00253,2026-10-06 15:30:00,2026-10-06 19:02:24,2026-10-06 18:55:48,delivered,Warehouse Central,Zone D,25.6,1.79,Bike,108.07,None recorded
+ORD-00254,2026-10-13 10:03:00,2026-10-13 15:21:00,2026-10-13 13:49:48,delivered,Warehouse North,Zone F,39.2,2.85,Van,133.34,None recorded
+ORD-00255,2026-10-23 07:40:00,2026-10-23 10:19:36,,in transit,Warehouse South,Zone A,1.5,0.74,Bike,26.43,Not applicable
+ORD-00256,2026-10-23 12:32:00,2026-10-23 14:18:48,,cancelled,Warehouse North,Zone D,1.2,4.18,Truck,48.82,Not applicable
+ORD-00257,2026-10-06 10:33:00,2026-10-06 14:07:11,2026-10-06 12:46:12,delivered,Warehouse South,Zone B,14.6,2.83,Bike,55.51,None recorded
+ORD-00258,2026-10-19 13:23:00,2026-10-19 17:00:48,2026-10-19 14:51:48,delivered,Warehouse Central,Zone E,13.5,3.05,Van,70.31,None recorded
+ORD-00259,2026-10-10 17:24:00,2026-10-10 20:27:36,2026-10-10 20:24:36,delivered,Warehouse Central,Zone E,7.0,0.57,Van,62.88,None recorded
+ORD-00260,2026-10-05 08:58:00,2026-10-05 11:46:36,2026-10-05 11:13:00,delivered,Warehouse South,Zone D,21.9,6.27,Bike,90.85,None recorded
+ORD-00261,2026-10-24 07:42:00,2026-10-24 11:01:48,2026-10-24 11:43:12,delivered,Warehouse South,Zone A,32.7,8.52,Bike,131.75,Traffic
+ORD-00262,2026-10-03 11:12:00,2026-10-03 12:52:48,2026-10-03 12:29:23,delivered,Warehouse South,Zone F,8.2,5.24,Van,41.24,None recorded
+ORD-00263,2026-10-30 09:16:00,2026-10-30 11:34:00,2026-10-30 11:53:12,delivered,Warehouse Central,Zone D,4.2,3.96,Bike,41.39,Route issue
+ORD-00264,2026-10-14 11:58:00,2026-10-14 14:28:36,2026-10-14 16:34:00,delivered,Warehouse South,Zone D,8.5,1.93,Bike,55.16,High order volume
+ORD-00265,2026-10-24 14:25:00,2026-10-24 17:34:00,2026-10-24 16:46:36,delivered,Warehouse Central,Zone A,11.1,0.26,Bike,40.59,None recorded
+ORD-00266,2026-10-15 16:57:00,2026-10-15 18:40:12,2026-10-15 19:58:48,delivered,Warehouse North,Zone C,9.4,3.85,Van,57.99,High order volume
+ORD-00267,2026-10-23 16:08:00,2026-10-23 21:05:36,2026-10-23 19:50:00,delivered,Warehouse South,Zone A,40.8,4.86,Bike,151.67,None recorded
+ORD-00268,2026-10-15 12:37:00,2026-10-15 17:04:36,2026-10-15 14:56:48,delivered,Warehouse Central,Zone D,23.6,7.0,Van,122.75,None recorded
+ORD-00269,2026-10-26 14:29:00,2026-10-26 16:02:36,2026-10-26 16:19:24,delivered,Warehouse Central,Zone B,6.4,6.21,Bike,63.56,Traffic
+ORD-00270,2026-10-25 15:06:00,2026-10-25 17:46:48,2026-10-25 17:06:00,delivered,Warehouse Central,Zone C,9.9,13.33,Truck,77.27,None recorded
+ORD-00271,2026-10-07 12:19:00,2026-10-07 15:35:12,2026-10-07 14:56:48,delivered,Warehouse Central,Zone A,17.4,4.66,Bike,97.04,None recorded
+ORD-00272,2026-10-29 08:15:00,2026-10-29 11:19:48,2026-10-29 10:28:12,delivered,Warehouse South,Zone D,14.7,1.35,Bike,53.55,None recorded
+ORD-00273,2026-10-04 13:00:00,2026-10-04 14:02:24,2026-10-04 13:40:12,delivered,Warehouse Central,Zone C,12.5,0.32,Bike,73.82,None recorded
+ORD-00274,2026-10-22 09:04:00,2026-10-22 11:52:00,,cancelled,Warehouse North,Zone C,7.2,0.75,Van,50.11,Not applicable
+ORD-00275,2026-10-20 17:45:00,2026-10-20 20:23:24,2026-10-20 18:38:24,delivered,Warehouse North,Zone E,2.7,3.26,Bike,45.24,None recorded
+ORD-00276,2026-10-20 17:11:00,2026-10-20 19:27:12,2026-10-20 18:02:36,delivered,Warehouse Central,Zone D,4.3,7.2,Truck,68.54,None recorded
+ORD-00277,2026-10-06 07:27:00,2026-10-06 08:49:12,2026-10-06 10:02:24,delivered,Warehouse North,Zone B,10.4,6.28,Truck,79.49,Other
+ORD-00278,2026-10-15 11:55:00,2026-10-15 16:04:00,2026-10-15 15:04:36,delivered,Warehouse Central,Zone C,26.3,3.72,Truck,110.9,None recorded
+ORD-00279,2026-10-14 10:36:00,2026-10-14 13:06:00,2026-10-14 11:19:48,delivered,Warehouse South,Zone D,7.1,0.96,Truck,66.47,None recorded
+ORD-00280,2026-10-14 07:51:00,2026-10-14 09:17:24,2026-10-14 10:37:48,delivered,Warehouse Central,Zone F,17.3,1.14,Van,102.29,High order volume
+ORD-00281,2026-10-01 14:32:00,2026-10-01 18:33:12,2026-10-01 17:06:47,delivered,Warehouse South,Zone A,21.5,2.5,Bike,94.93,None recorded
+ORD-00282,2026-10-04 11:15:00,2026-10-04 13:16:12,2026-10-04 13:10:48,delivered,Warehouse North,Zone E,11.5,3.6,Van,78.04,None recorded
+ORD-00283,2026-10-03 10:03:00,2026-10-03 14:12:00,2026-10-03 12:57:00,delivered,Warehouse North,Zone D,22.9,1.13,Van,89.69,None recorded
+ORD-00284,2026-10-26 13:03:00,2026-10-26 18:14:24,2026-10-26 15:01:12,delivered,Warehouse North,Zone E,17.5,11.34,Van,78.56,None recorded
+ORD-00285,2026-10-09 11:15:00,2026-10-09 14:23:24,2026-10-09 13:15:00,delivered,Warehouse North,Zone D,10.0,2.83,Van,57.64,None recorded
+ORD-00286,2026-10-14 08:02:00,2026-10-14 09:44:36,,cancelled,Warehouse Central,Zone C,17.2,2.49,Bike,91.45,Not applicable
+ORD-00287,2026-10-24 10:10:00,2026-10-24 11:46:36,2026-10-24 12:25:00,delivered,Warehouse North,Zone D,4.6,2.56,Van,57.33,Traffic
+ORD-00288,2026-10-21 15:11:00,2026-10-21 20:29:00,2026-10-21 16:45:47,delivered,Warehouse Central,Zone E,12.1,2.47,Van,82.68,None recorded
+ORD-00289,2026-10-06 15:07:00,2026-10-06 18:59:12,2026-10-06 16:47:48,delivered,Warehouse South,Zone E,10.0,12.32,Bike,62.85,None recorded
+ORD-00290,2026-10-19 09:06:00,2026-10-19 10:41:24,2026-10-19 10:08:24,delivered,Warehouse North,Zone C,7.5,3.88,Bike,35.03,None recorded
+ORD-00291,2026-10-06 13:36:00,2026-10-06 15:43:12,,in transit,Warehouse South,Zone D,1.0,6.54,Bike,41.93,Not applicable
+ORD-00292,2026-10-03 09:39:00,2026-10-03 11:51:00,2026-10-03 10:46:12,delivered,Warehouse South,Zone C,12.5,2.96,Bike,62.15,None recorded
+ORD-00293,2026-10-13 10:47:00,2026-10-13 12:55:24,2026-10-13 12:38:00,delivered,Warehouse North,Zone E,8.2,3.77,Bike,69.23,None recorded
+ORD-00294,2026-10-01 07:06:00,2026-10-01 09:56:24,2026-10-01 08:31:48,delivered,Warehouse South,Zone D,12.9,2.73,Bike,70.55,None recorded
+ORD-00295,2026-10-28 07:23:00,2026-10-28 11:41:00,2026-10-28 10:34:24,delivered,Warehouse South,Zone C,20.4,1.73,Bike,97.16,None recorded
+ORD-00296,2026-10-08 11:20:00,2026-10-08 17:42:48,,cancelled,Warehouse South,Zone F,27.1,5.41,Bike,116.44,Not applicable
+ORD-00297,2026-10-08 16:44:00,2026-10-08 19:19:24,2026-10-08 19:18:11,delivered,Warehouse South,Zone A,9.5,5.9,Bike,49.62,None recorded
+ORD-00298,2026-10-16 07:24:00,2026-10-16 11:09:00,2026-10-16 11:40:12,delivered,Warehouse South,Zone D,30.4,1.28,Bike,108.14,Weather
+ORD-00299,2026-10-06 07:57:00,2026-10-06 09:07:12,2026-10-06 10:57:00,delivered,Warehouse Central,Zone C,29.2,3.7,Van,121.53,Other
+ORD-00300,2026-10-18 11:42:00,2026-10-18 15:03:36,2026-10-18 15:13:48,delivered,Warehouse South,Zone D,20.2,3.37,Van,89.51,Traffic
+ORD-00301,2026-10-21 14:12:00,2026-10-21 16:29:23,,cancelled,Warehouse Central,Zone A,14.8,14.6,Bike,98.24,Not applicable
+ORD-00302,2026-10-23 10:38:00,2026-10-23 15:48:48,2026-10-23 12:15:12,delivered,Warehouse North,Zone C,18.2,7.51,Van,94.99,None recorded
+ORD-00303,2026-10-14 17:46:00,2026-10-14 21:10:00,2026-10-14 19:13:36,delivered,Warehouse North,Zone D,10.3,5.23,Bike,67.14,None recorded
+ORD-00304,2026-10-02 17:08:00,2026-10-02 19:34:24,2026-10-02 19:22:24,delivered,Warehouse South,Zone F,3.9,1.9,Van,52.2,None recorded
+ORD-00305,2026-10-17 14:04:00,2026-10-17 19:17:48,,cancelled,Warehouse South,Zone A,24.0,0.34,Van,87.15,Not applicable
+ORD-00306,2026-10-20 12:01:00,2026-10-20 16:34:00,2026-10-20 16:16:00,delivered,Warehouse Central,Zone B,29.0,4.08,Truck,132.34,None recorded
+ORD-00307,2026-10-19 16:13:00,2026-10-19 19:36:24,2026-10-19 20:47:47,delivered,Warehouse Central,Zone F,26.8,1.84,Van,103.54,Weather
+ORD-00308,2026-10-02 09:13:00,2026-10-02 12:25:36,2026-10-02 11:50:12,delivered,Warehouse South,Zone A,18.7,2.28,Bike,94.05,None recorded
+ORD-00309,2026-10-27 17:28:00,2026-10-27 20:23:48,,in transit,Warehouse South,Zone C,7.2,3.97,Van,41.93,Not applicable
+ORD-00310,2026-10-27 10:22:00,2026-10-27 13:46:00,2026-10-27 13:38:48,delivered,Warehouse Central,Zone C,34.8,0.6,Van,110.69,None recorded
+ORD-00311,2026-10-04 07:15:00,2026-10-04 12:33:36,2026-10-04 10:08:24,delivered,Warehouse North,Zone A,38.1,1.59,Bike,138.78,None recorded
+ORD-00312,2026-10-16 10:07:00,2026-10-16 13:18:24,2026-10-16 11:47:48,delivered,Warehouse Central,Zone C,16.3,5.01,Bike,72.5,None recorded
+ORD-00313,2026-10-07 15:36:00,2026-10-07 19:48:00,2026-10-07 18:07:12,delivered,Warehouse South,Zone B,16.6,0.84,Truck,81.7,None recorded
+ORD-00314,2026-10-23 08:11:00,2026-10-23 11:06:48,2026-10-23 10:25:24,delivered,Warehouse North,Zone D,20.6,1.48,Van,91.32,None recorded
+ORD-00315,2026-10-10 09:55:00,2026-10-10 13:40:00,2026-10-10 12:22:00,delivered,Warehouse South,Zone D,16.4,5.88,Van,103.96,None recorded
+ORD-00316,2026-10-07 14:02:00,2026-10-07 18:43:24,2026-10-07 17:06:12,delivered,Warehouse North,Zone E,23.8,9.07,Van,111.34,None recorded
+ORD-00317,2026-10-26 15:18:00,2026-10-26 17:31:48,2026-10-26 17:34:12,delivered,Warehouse Central,Zone A,21.2,2.11,Van,98.28,Route issue
+ORD-00318,2026-10-30 11:11:00,2026-10-30 16:19:24,2026-10-30 14:56:36,delivered,Warehouse South,Zone B,16.6,3.1,Truck,93.12,None recorded
+ORD-00319,2026-10-12 17:21:00,2026-10-12 20:48:36,2026-10-12 19:46:48,delivered,Warehouse North,Zone B,12.5,7.43,Van,53.26,None recorded
+ORD-00320,2026-10-25 07:26:00,2026-10-25 10:59:00,,in transit,Warehouse South,Zone F,27.6,2.44,Bike,101.37,Not applicable
+ORD-00321,2026-10-22 16:25:00,2026-10-22 19:26:48,2026-10-22 19:11:12,delivered,Warehouse South,Zone D,14.3,0.97,Bike,74.12,None recorded
+ORD-00322,2026-10-27 14:00:00,2026-10-27 18:49:12,2026-10-27 16:17:23,delivered,Warehouse Central,Zone B,12.6,1.1,Bike,71.53,None recorded
+ORD-00323,2026-10-18 10:17:00,2026-10-18 12:28:24,2026-10-18 10:47:00,delivered,Warehouse North,Zone C,8.9,0.6,Bike,44.77,None recorded
+ORD-00324,2026-10-13 07:53:00,2026-10-13 11:32:36,2026-10-13 09:14:36,delivered,Warehouse Central,Zone A,20.4,5.63,Van,79.62,None recorded
+ORD-00325,2026-10-23 15:42:00,2026-10-23 18:39:00,2026-10-23 19:30:00,delivered,Warehouse North,Zone E,32.2,3.76,Van,132.11,Route issue
+ORD-00326,2026-10-02 10:53:00,2026-10-02 15:15:12,2026-10-02 12:43:24,delivered,Warehouse Central,Zone A,14.2,2.89,Van,76.09,None recorded
+ORD-00327,2026-10-14 13:09:00,2026-10-14 18:30:00,2026-10-14 17:30:36,delivered,Warehouse South,Zone B,23.8,6.06,Bike,90.74,None recorded
+ORD-00328,2026-10-29 12:15:00,2026-10-29 14:54:00,2026-10-29 14:43:48,delivered,Warehouse North,Zone E,12.0,1.15,Van,60.02,None recorded
+ORD-00329,2026-10-20 09:29:00,2026-10-20 12:50:00,2026-10-20 12:10:24,delivered,Warehouse South,Zone F,21.5,0.5,Bike,77.55,None recorded
+ORD-00330,2026-10-20 08:23:00,2026-10-20 10:51:48,2026-10-20 11:27:12,delivered,Warehouse Central,Zone C,29.3,2.37,Van,127.04,Other
+ORD-00331,2026-10-20 08:48:00,2026-10-20 12:48:36,2026-10-20 11:48:00,delivered,Warehouse North,Zone E,11.8,2.3,Van,81.2,None recorded
+ORD-00332,2026-10-20 08:26:00,2026-10-20 11:24:12,2026-10-20 11:08:36,delivered,Warehouse South,Zone D,11.8,2.67,Van,74.9,None recorded
+ORD-00333,2026-10-20 13:07:00,2026-10-20 16:33:24,2026-10-20 15:53:12,delivered,Warehouse Central,Zone D,9.5,7.83,Truck,47.26,None recorded
+ORD-00334,2026-10-08 11:54:00,2026-10-08 15:10:48,,cancelled,Warehouse South,Zone D,16.4,0.67,Bike,66.22,Not applicable
+ORD-00335,2026-10-08 11:37:00,2026-10-08 14:29:48,2026-10-08 13:19:36,delivered,Warehouse Central,Zone E,14.7,5.49,Van,62.63,None recorded
+ORD-00336,2026-10-28 10:09:00,2026-10-28 14:14:24,2026-10-28 12:32:24,delivered,Warehouse South,Zone F,5.4,1.92,Truck,74.32,None recorded
+ORD-00337,2026-10-16 17:30:00,2026-10-16 21:25:12,2026-10-16 19:21:00,delivered,Warehouse Central,Zone B,15.9,6.31,Van,87.98,None recorded
+ORD-00338,2026-10-12 16:48:00,2026-10-12 19:21:36,,cancelled,Warehouse South,Zone A,8.0,2.12,Bike,62.07,Not applicable
+ORD-00339,2026-10-05 10:41:00,2026-10-05 14:07:24,2026-10-05 12:30:48,delivered,Warehouse South,Zone A,18.8,4.36,Bike,74.93,None recorded
+ORD-00340,2026-10-13 16:11:00,2026-10-13 20:44:00,2026-10-13 19:51:48,delivered,Warehouse Central,Zone C,34.6,6.55,Bike,111.07,None recorded
+ORD-00341,2026-10-10 16:22:00,2026-10-10 18:51:24,2026-10-10 20:06:24,delivered,Warehouse Central,Zone A,28.7,2.08,Bike,104.01,High order volume
+ORD-00342,2026-10-22 13:54:00,2026-10-22 16:20:24,2026-10-22 15:18:36,delivered,Warehouse South,Zone A,6.8,2.67,Van,50.08,None recorded
+ORD-00343,2026-10-10 12:09:00,2026-10-10 15:13:12,2026-10-10 14:31:48,delivered,Warehouse North,Zone F,20.5,3.9,Van,85.66,None recorded
+ORD-00344,2026-10-13 14:17:00,2026-10-13 16:26:00,,in transit,Warehouse South,Zone D,9.5,4.83,Van,50.34,Not applicable
+ORD-00345,2026-10-30 14:42:00,2026-10-30 18:22:12,2026-10-30 17:56:24,delivered,Warehouse Central,Zone B,22.2,2.4,Truck,110.52,None recorded
+ORD-00346,2026-10-08 10:48:00,2026-10-08 14:30:00,,in transit,Warehouse North,Zone A,9.9,4.91,Bike,53.07,Not applicable
+ORD-00347,2026-10-04 07:35:00,2026-10-04 09:14:36,2026-10-04 10:06:12,delivered,Warehouse North,Zone C,4.4,2.24,Van,60.16,Traffic
+ORD-00348,2026-10-16 07:46:00,2026-10-16 11:59:48,2026-10-16 10:11:12,delivered,Warehouse North,Zone A,31.1,9.11,Bike,125.97,None recorded
+ORD-00349,2026-10-05 17:25:00,2026-10-05 20:07:36,2026-10-05 17:46:00,delivered,Warehouse North,Zone F,4.5,5.47,Bike,65.49,None recorded
+ORD-00350,2026-10-07 09:48:00,2026-10-07 13:24:00,2026-10-07 11:13:12,delivered,Warehouse Central,Zone D,18.9,7.0,Bike,106.4,None recorded
+ORD-00351,2026-10-29 16:05:00,2026-10-29 19:21:48,,in transit,Warehouse South,Zone B,9.8,1.69,Van,59.39,Not applicable
+ORD-00352,2026-10-03 13:38:00,2026-10-03 17:31:24,2026-10-03 17:51:48,delivered,Warehouse North,Zone D,42.1,4.51,Bike,137.98,Route issue
+ORD-00353,2026-10-26 15:17:00,2026-10-26 19:26:00,2026-10-26 17:56:00,delivered,Warehouse North,Zone A,28.8,1.07,Bike,97.18,None recorded
+ORD-00354,2026-10-04 09:21:00,2026-10-04 11:25:12,2026-10-04 09:43:12,delivered,Warehouse North,Zone B,14.1,2.47,Van,73.96,None recorded
+ORD-00355,2026-10-08 07:49:00,2026-10-08 11:37:00,2026-10-08 09:20:48,delivered,Warehouse South,Zone D,15.3,2.6,Bike,74.57,None recorded
+ORD-00356,2026-10-13 09:29:00,2026-10-13 14:47:00,2026-10-13 13:00:48,delivered,Warehouse South,Zone E,46.4,7.31,Van,150.59,None recorded
+ORD-00357,2026-10-24 11:46:00,2026-10-24 13:56:12,2026-10-24 14:32:48,delivered,Warehouse South,Zone D,4.1,1.58,Truck,50.37,Route issue
+ORD-00358,2026-10-21 10:34:00,2026-10-21 14:42:24,2026-10-21 14:37:00,delivered,Warehouse North,Zone F,21.2,1.37,Van,85.2,None recorded
+ORD-00359,2026-10-13 08:14:00,2026-10-13 10:57:12,2026-10-13 09:15:12,delivered,Warehouse South,Zone A,10.0,1.17,Van,45.7,None recorded
+ORD-00360,2026-10-24 11:59:00,2026-10-24 15:06:48,2026-10-24 14:35:36,delivered,Warehouse North,Zone A,22.8,1.83,Van,94.21,None recorded
+ORD-00361,2026-10-08 15:07:00,2026-10-08 18:59:12,2026-10-08 16:55:36,delivered,Warehouse South,Zone D,22.0,2.21,Bike,104.39,None recorded
+ORD-00362,2026-10-05 15:57:00,2026-10-05 19:19:48,2026-10-05 18:01:48,delivered,Warehouse Central,Zone A,20.5,12.71,Bike,104.99,None recorded
+ORD-00363,2026-10-02 08:20:00,2026-10-02 10:11:00,,in transit,Warehouse Central,Zone C,30.6,3.17,Van,112.31,Not applicable
+ORD-00364,2026-10-05 15:03:00,2026-10-05 18:43:12,,in transit,Warehouse South,Zone A,17.0,6.71,Bike,89.46,Not applicable
+ORD-00365,2026-10-14 10:26:00,2026-10-14 12:14:36,2026-10-14 11:23:36,delivered,Warehouse Central,Zone A,4.8,6.53,Van,70.15,None recorded
+ORD-00366,2026-10-02 15:15:00,2026-10-02 16:15:00,2026-10-02 16:16:48,delivered,Warehouse North,Zone E,1.4,5.27,Bike,48.41,Route issue
+ORD-00367,2026-10-09 09:59:00,2026-10-09 13:53:36,2026-10-09 13:14:36,delivered,Warehouse Central,Zone D,10.6,0.89,Van,65.12,None recorded
+ORD-00368,2026-10-12 14:00:00,2026-10-12 18:03:00,2026-10-12 17:40:12,delivered,Warehouse Central,Zone D,13.2,1.19,Truck,75.2,None recorded
+ORD-00369,2026-10-16 16:56:00,2026-10-16 19:52:24,2026-10-16 20:26:00,delivered,Warehouse South,Zone C,10.0,2.84,Truck,64.32,Traffic
+ORD-00370,2026-10-03 13:39:00,2026-10-03 15:22:48,2026-10-03 16:45:00,delivered,Warehouse North,Zone D,20.1,2.12,Van,101.01,Other
+ORD-00371,2026-10-10 13:41:00,2026-10-10 17:50:00,,in transit,Warehouse Central,Zone A,15.0,7.82,Bike,84.3,Not applicable
+ORD-00372,2026-10-20 09:03:00,2026-10-20 13:46:12,2026-10-20 11:33:00,delivered,Warehouse South,Zone E,9.4,2.24,Van,41.42,None recorded
+ORD-00373,2026-10-26 07:32:00,2026-10-26 09:50:36,2026-10-26 08:53:00,delivered,Warehouse North,Zone A,5.1,10.78,Bike,58.41,None recorded
+ORD-00374,2026-10-17 07:42:00,2026-10-17 10:13:48,2026-10-17 11:09:00,delivered,Warehouse Central,Zone A,30.1,5.58,Bike,104.22,Other
+ORD-00375,2026-10-12 16:55:00,2026-10-12 20:31:00,2026-10-12 19:07:00,delivered,Warehouse Central,Zone D,17.5,2.66,Van,85.97,None recorded
+ORD-00376,2026-10-22 08:00:00,2026-10-22 12:01:12,2026-10-22 11:12:36,delivered,Warehouse North,Zone D,33.1,3.52,Truck,125.97,None recorded
+ORD-00377,2026-10-02 08:37:00,2026-10-02 11:04:36,2026-10-02 11:01:00,delivered,Warehouse South,Zone D,13.3,3.42,Bike,64.01,None recorded
+ORD-00378,2026-10-28 17:12:00,2026-10-28 20:16:12,2026-10-28 19:37:12,delivered,Warehouse Central,Zone B,7.2,6.63,Van,59.83,None recorded
+ORD-00379,2026-10-10 15:46:00,2026-10-10 18:20:47,2026-10-10 17:56:48,delivered,Warehouse Central,Zone C,9.8,5.29,Bike,64.21,None recorded
+ORD-00380,2026-10-11 17:39:00,2026-10-11 22:37:48,2026-10-11 21:39:00,delivered,Warehouse South,Zone C,39.2,1.31,Van,116.38,None recorded
+ORD-00381,2026-10-22 09:46:00,2026-10-22 14:00:24,2026-10-22 14:29:48,delivered,Warehouse South,Zone F,46.0,1.01,Bike,146.93,Other
+ORD-00382,2026-10-09 07:43:00,2026-10-09 10:28:36,2026-10-09 10:16:36,delivered,Warehouse Central,Zone F,4.0,2.54,Van,48.27,None recorded
+ORD-00383,2026-10-09 12:50:00,2026-10-09 14:42:12,2026-10-09 14:59:00,delivered,Warehouse Central,Zone C,8.9,3.49,Van,56.13,Other
+ORD-00384,2026-10-29 12:21:00,2026-10-29 14:41:24,2026-10-29 13:32:24,delivered,Warehouse South,Zone B,13.0,0.11,Bike,45.58,None recorded
+ORD-00385,2026-10-16 08:02:00,2026-10-16 10:49:24,2026-10-16 09:22:24,delivered,Warehouse Central,Zone F,5.7,5.3,Bike,51.3,None recorded
+ORD-00386,2026-10-24 09:08:00,2026-10-24 13:09:12,2026-10-24 10:57:12,delivered,Warehouse South,Zone E,21.7,0.39,Van,95.49,None recorded
+ORD-00387,2026-10-07 11:15:00,2026-10-07 13:23:24,2026-10-07 11:42:00,delivered,Warehouse Central,Zone A,4.2,2.57,Van,47.8,None recorded
+ORD-00388,2026-10-05 09:44:00,2026-10-05 12:06:12,,in transit,Warehouse Central,Zone D,16.2,6.26,Bike,79.8,Not applicable
+ORD-00389,2026-10-07 14:51:00,2026-10-07 17:52:48,2026-10-07 16:07:48,delivered,Warehouse South,Zone D,6.3,2.47,Bike,44.07,None recorded
+ORD-00390,2026-10-08 13:17:00,2026-10-08 17:33:12,2026-10-08 15:34:23,delivered,Warehouse Central,Zone A,11.9,0.9,Van,76.06,None recorded
+ORD-00391,2026-10-30 07:56:00,2026-10-30 10:09:12,2026-10-30 09:02:00,delivered,Warehouse North,Zone F,14.0,3.09,Van,65.77,None recorded
+ORD-00392,2026-10-08 11:41:00,2026-10-08 13:59:36,2026-10-08 15:02:36,delivered,Warehouse Central,Zone D,17.2,0.71,Van,65.59,Weather
+ORD-00393,2026-10-29 14:00:00,2026-10-29 17:24:00,,in transit,Warehouse Central,Zone F,10.5,0.71,Van,59.46,Not applicable
+ORD-00394,2026-10-08 16:48:00,2026-10-08 19:05:23,2026-10-08 20:22:47,delivered,Warehouse North,Zone F,21.1,8.75,Van,93.31,Traffic
+ORD-00395,2026-10-20 12:25:00,2026-10-20 15:51:24,2026-10-20 15:26:12,delivered,Warehouse North,Zone A,22.8,2.42,Bike,75.68,None recorded
+ORD-00396,2026-10-13 16:10:00,2026-10-13 21:48:24,,in transit,Warehouse North,Zone C,58.3,3.61,Van,195.57,Not applicable
+ORD-00397,2026-10-06 17:10:00,2026-10-06 21:08:48,2026-10-06 20:53:12,delivered,Warehouse South,Zone F,20.7,8.68,Van,72.55,None recorded
+ORD-00398,2026-10-09 14:20:00,2026-10-09 17:26:36,2026-10-09 17:41:36,delivered,Warehouse South,Zone C,31.6,4.56,Van,107.36,Route issue
+ORD-00399,2026-10-29 13:05:00,2026-10-29 17:48:48,2026-10-29 17:31:24,delivered,Warehouse South,Zone C,35.0,3.36,Bike,133.65,None recorded
+ORD-00400,2026-10-25 09:01:00,2026-10-25 12:07:36,2026-10-25 09:53:48,delivered,Warehouse South,Zone A,9.1,5.58,Van,73.44,None recorded
+ORD-00401,2026-10-10 15:55:00,2026-10-10 19:35:48,2026-10-10 19:17:48,delivered,Warehouse South,Zone F,25.6,4.83,Van,116.78,None recorded
+ORD-00402,2026-10-25 14:39:00,2026-10-25 15:39:00,2026-10-25 16:05:24,delivered,Warehouse South,Zone B,4.5,2.61,Van,66.17,High order volume
+ORD-00403,2026-10-05 13:22:00,2026-10-05 15:20:48,2026-10-05 14:43:36,delivered,Warehouse South,Zone E,9.1,5.34,Bike,49.64,None recorded
+ORD-00404,2026-10-05 08:23:00,2026-10-05 09:23:00,,in transit,Warehouse North,Zone B,11.7,2.27,Truck,76.1,Not applicable
+ORD-00405,2026-10-21 07:43:00,2026-10-21 12:40:36,2026-10-21 10:31:36,delivered,Warehouse North,Zone A,20.3,1.32,Bike,77.84,None recorded
+ORD-00406,2026-10-26 16:05:00,2026-10-26 19:05:00,,in transit,Warehouse North,Zone B,7.8,4.89,Bike,58.76,Not applicable
+ORD-00407,2026-10-27 16:30:00,2026-10-27 18:29:24,2026-10-27 19:18:00,delivered,Warehouse North,Zone C,22.9,11.54,Bike,94.18,Weather
+ORD-00408,2026-10-18 15:12:00,2026-10-18 18:21:36,2026-10-18 18:32:24,delivered,Warehouse South,Zone A,38.3,0.18,Van,135.73,High order volume
+ORD-00409,2026-10-05 07:59:00,2026-10-05 11:43:24,2026-10-05 10:21:12,delivered,Warehouse Central,Zone C,17.9,2.36,Van,87.62,None recorded
+ORD-00410,2026-10-18 13:29:00,2026-10-18 16:06:12,2026-10-18 16:54:12,delivered,Warehouse South,Zone A,29.7,3.91,Van,111.75,Other
+ORD-00411,2026-10-17 10:16:00,2026-10-17 12:27:24,2026-10-17 12:06:24,delivered,Warehouse North,Zone A,3.3,5.34,Van,57.73,None recorded
+ORD-00412,2026-10-20 10:36:00,2026-10-20 15:04:48,2026-10-20 13:19:48,delivered,Warehouse Central,Zone F,18.7,3.56,Van,93.82,None recorded
+ORD-00413,2026-10-06 11:00:00,2026-10-06 14:30:00,2026-10-06 11:57:36,delivered,Warehouse North,Zone E,2.9,2.92,Bike,59.27,None recorded
+ORD-00414,2026-10-06 08:55:00,2026-10-06 10:51:24,2026-10-06 11:08:48,delivered,Warehouse North,Zone E,5.5,9.61,Bike,47.58,Traffic
+ORD-00415,2026-10-07 14:10:00,2026-10-07 17:13:36,2026-10-07 16:11:12,delivered,Warehouse Central,Zone A,18.6,2.03,Bike,95.98,None recorded
+ORD-00416,2026-10-13 16:02:00,2026-10-13 20:13:24,2026-10-13 17:32:00,delivered,Warehouse South,Zone A,26.8,1.23,Van,99.66,None recorded
+ORD-00417,2026-10-15 14:54:00,2026-10-15 17:09:36,2026-10-15 18:02:24,delivered,Warehouse North,Zone A,12.6,7.09,Van,93.73,Traffic
+ORD-00418,2026-10-06 13:44:00,2026-10-06 17:16:24,2026-10-06 15:06:48,delivered,Warehouse South,Zone E,17.8,4.0,Bike,102.39,None recorded
+ORD-00419,2026-10-01 15:22:00,2026-10-01 18:12:24,2026-10-01 19:56:47,delivered,Warehouse Central,Zone E,30.2,1.22,Bike,104.34,Weather
+ORD-00420,2026-10-28 14:08:00,2026-10-28 16:33:48,2026-10-28 16:54:12,delivered,Warehouse South,Zone C,3.8,8.12,Van,55.06,Other
+ORD-00421,2026-10-13 16:39:00,2026-10-13 19:09:00,,in transit,Warehouse South,Zone B,14.0,3.82,Bike,88.84,Not applicable
+ORD-00422,2026-10-15 10:47:00,2026-10-15 14:24:12,2026-10-15 13:13:24,delivered,Warehouse Central,Zone F,31.9,6.5,Van,122.87,None recorded
+ORD-00423,2026-10-24 14:20:00,2026-10-24 19:56:00,2026-10-24 16:35:36,delivered,Warehouse South,Zone A,33.1,4.33,Bike,99.35,None recorded
+ORD-00424,2026-10-29 11:58:00,2026-10-29 15:48:24,2026-10-29 15:50:12,delivered,Warehouse North,Zone E,34.6,4.31,Van,124.16,Route issue
+ORD-00425,2026-10-01 15:13:00,2026-10-01 18:11:12,2026-10-01 17:20:48,delivered,Warehouse Central,Zone A,10.7,1.45,Bike,38.02,None recorded
+ORD-00426,2026-10-13 16:56:00,2026-10-13 18:50:00,2026-10-13 20:32:00,delivered,Warehouse South,Zone F,28.8,4.39,Bike,100.04,Route issue
+ORD-00427,2026-10-05 11:23:00,2026-10-05 13:39:12,2026-10-05 14:27:48,delivered,Warehouse South,Zone F,30.4,2.71,Van,116.17,Weather
+ORD-00428,2026-10-01 09:58:00,2026-10-01 11:22:00,2026-10-01 11:43:00,delivered,Warehouse South,Zone D,8.7,2.59,Bike,65.72,Route issue
+ORD-00429,2026-10-08 14:23:00,2026-10-08 15:57:11,,cancelled,Warehouse South,Zone C,9.5,3.64,Van,84.43,Not applicable
+ORD-00430,2026-10-26 12:46:00,2026-10-26 16:32:12,,in transit,Warehouse South,Zone B,18.8,5.45,Bike,85.56,Not applicable
+ORD-00431,2026-10-28 13:28:00,2026-10-28 16:58:36,2026-10-28 15:22:00,delivered,Warehouse North,Zone B,18.6,8.72,Bike,87.76,None recorded
+ORD-00432,2026-10-20 14:23:00,2026-10-20 15:55:24,2026-10-20 17:48:48,delivered,Warehouse North,Zone B,11.4,1.55,Truck,82.98,Traffic
+ORD-00433,2026-10-30 12:38:00,2026-10-30 14:12:11,2026-10-30 15:33:12,delivered,Warehouse North,Zone C,16.2,3.53,Van,83.18,High order volume
+ORD-00434,2026-10-17 17:19:00,2026-10-17 20:08:12,2026-10-17 19:35:48,delivered,Warehouse Central,Zone A,14.7,1.66,Van,80.95,None recorded
+ORD-00435,2026-10-18 08:22:00,2026-10-18 11:24:24,2026-10-18 13:05:48,delivered,Warehouse Central,Zone C,32.6,13.62,Van,131.44,Route issue
+ORD-00436,2026-10-28 14:13:00,2026-10-28 15:42:24,2026-10-28 16:01:00,delivered,Warehouse Central,Zone C,7.1,0.14,Van,54.1,Traffic
+ORD-00437,2026-10-13 13:02:00,2026-10-13 17:18:12,2026-10-13 15:50:36,delivered,Warehouse Central,Zone A,16.3,2.94,Van,82.99,None recorded
+ORD-00438,2026-10-06 10:12:00,2026-10-06 15:26:24,2026-10-06 11:29:23,delivered,Warehouse South,Zone B,10.9,1.17,Van,31.58,None recorded
+ORD-00439,2026-10-19 13:53:00,2026-10-19 17:21:12,2026-10-19 17:01:24,delivered,Warehouse Central,Zone C,23.5,4.04,Bike,107.47,None recorded
+ORD-00440,2026-10-22 10:14:00,2026-10-22 12:59:36,2026-10-22 13:26:36,delivered,Warehouse South,Zone D,19.0,2.86,Van,92.02,Route issue
+ORD-00441,2026-10-25 14:35:00,2026-10-25 15:57:48,2026-10-25 16:08:36,delivered,Warehouse Central,Zone B,18.1,3.8,Bike,99.66,Weather
+ORD-00442,2026-10-17 13:56:00,2026-10-17 16:56:36,2026-10-17 16:12:12,delivered,Warehouse North,Zone F,10.7,3.76,Van,60.78,None recorded
+ORD-00443,2026-10-13 09:00:00,2026-10-13 12:09:00,2026-10-13 10:23:24,delivered,Warehouse South,Zone E,16.4,1.92,Bike,47.12,None recorded
+ORD-00444,2026-10-08 11:37:00,2026-10-08 14:34:00,2026-10-08 15:15:24,delivered,Warehouse South,Zone A,8.4,3.21,Bike,56.59,Weather
+ORD-00445,2026-10-21 08:32:00,2026-10-21 12:57:12,2026-10-21 14:24:12,delivered,Warehouse North,Zone D,63.0,3.01,Van,189.55,Other
+ORD-00446,2026-10-30 08:51:00,2026-10-30 11:25:11,2026-10-30 10:16:48,delivered,Warehouse North,Zone A,10.1,0.84,Bike,47.88,None recorded
+ORD-00447,2026-10-23 08:31:00,2026-10-23 12:41:48,2026-10-23 10:42:24,delivered,Warehouse South,Zone D,21.2,5.57,Bike,83.64,None recorded
+ORD-00448,2026-10-20 17:06:00,2026-10-20 21:14:24,2026-10-20 19:03:00,delivered,Warehouse North,Zone D,6.2,2.71,Bike,67.15,None recorded
+ORD-00449,2026-10-02 09:04:00,2026-10-02 10:57:24,2026-10-02 11:00:24,delivered,Warehouse South,Zone A,13.0,7.82,Van,84.3,Weather
+ORD-00450,2026-10-27 13:46:00,2026-10-27 16:21:24,2026-10-27 14:18:24,delivered,Warehouse South,Zone F,1.0,0.91,Bike,33.85,None recorded
+ORD-00451,2026-10-24 15:46:00,2026-10-24 18:17:48,2026-10-24 18:23:12,delivered,Warehouse South,Zone C,5.4,5.9,Van,63.66,Other
+ORD-00452,2026-10-10 14:31:00,2026-10-10 17:49:36,2026-10-10 16:18:24,delivered,Warehouse Central,Zone D,10.4,1.09,Bike,44.5,None recorded
+ORD-00453,2026-10-25 12:17:00,2026-10-25 13:17:00,2026-10-25 15:02:36,delivered,Warehouse North,Zone D,5.6,2.54,Van,48.81,Traffic
+ORD-00454,2026-10-19 15:27:00,2026-10-19 19:00:36,2026-10-19 16:33:00,delivered,Warehouse North,Zone C,10.6,5.06,Van,82.79,None recorded
+ORD-00455,2026-10-26 10:18:00,2026-10-26 12:52:11,2026-10-26 12:54:00,delivered,Warehouse Central,Zone D,10.9,2.67,Truck,70.6,Route issue
+ORD-00456,2026-10-13 13:20:00,2026-10-13 17:23:36,2026-10-13 14:14:00,delivered,Warehouse North,Zone E,8.4,4.71,Van,64.21,None recorded
+ORD-00457,2026-10-11 14:27:00,2026-10-11 17:49:12,2026-10-11 16:11:24,delivered,Warehouse Central,Zone B,5.3,1.1,Bike,52.28,None recorded
+ORD-00458,2026-10-01 08:11:00,2026-10-01 10:44:36,2026-10-01 09:36:48,delivered,Warehouse North,Zone D,10.9,4.36,Van,68.53,None recorded
+ORD-00459,2026-10-22 09:55:00,2026-10-22 14:01:00,2026-10-22 13:29:47,delivered,Warehouse North,Zone A,32.5,7.78,Bike,115.0,None recorded
+ORD-00460,2026-10-09 11:04:00,2026-10-09 12:27:24,2026-10-09 12:55:36,delivered,Warehouse South,Zone D,9.4,3.43,Van,60.13,Route issue
+ORD-00461,2026-10-19 09:46:00,2026-10-19 13:30:24,2026-10-19 12:27:24,delivered,Warehouse Central,Zone B,12.7,7.79,Van,86.81,None recorded
+ORD-00462,2026-10-30 08:13:00,2026-10-30 10:39:24,2026-10-30 13:23:48,delivered,Warehouse Central,Zone D,28.9,3.55,Truck,105.26,Weather
+ORD-00463,2026-10-24 07:19:00,2026-10-24 10:14:12,2026-10-24 09:11:48,delivered,Warehouse South,Zone A,10.6,4.21,Truck,58.76,None recorded
+ORD-00464,2026-10-22 10:24:00,2026-10-22 14:04:12,2026-10-22 11:59:24,delivered,Warehouse South,Zone E,13.2,4.25,Van,75.33,None recorded
+ORD-00465,2026-10-10 15:44:00,2026-10-10 18:40:24,2026-10-10 18:48:12,delivered,Warehouse South,Zone A,10.8,8.11,Bike,66.67,High order volume
+ORD-00466,2026-10-05 13:37:00,2026-10-05 17:34:00,2026-10-05 16:53:12,delivered,Warehouse South,Zone A,28.0,1.52,Van,114.58,None recorded
+ORD-00467,2026-10-11 09:06:00,2026-10-11 11:26:24,2026-10-11 11:39:36,delivered,Warehouse North,Zone E,21.7,1.28,Van,84.8,Traffic
+ORD-00468,2026-10-28 12:10:00,2026-10-28 17:08:48,2026-10-28 15:34:36,delivered,Warehouse North,Zone F,8.6,1.3,Van,68.62,None recorded
+ORD-00469,2026-10-17 15:32:00,2026-10-17 19:47:36,2026-10-17 17:57:12,delivered,Warehouse North,Zone D,13.4,8.56,Truck,92.3,None recorded
+ORD-00470,2026-10-15 15:13:00,2026-10-15 19:49:00,2026-10-15 17:58:36,delivered,Warehouse South,Zone C,29.7,3.55,Bike,105.73,None recorded
+ORD-00471,2026-10-26 08:57:00,2026-10-26 11:34:48,2026-10-26 11:39:00,delivered,Warehouse South,Zone E,14.3,5.49,Van,71.01,Traffic
+ORD-00472,2026-10-10 08:18:00,2026-10-10 11:27:36,2026-10-10 10:00:00,delivered,Warehouse North,Zone A,30.7,2.47,Bike,118.57,None recorded
+ORD-00473,2026-10-21 13:43:00,2026-10-21 15:19:36,2026-10-21 15:17:47,delivered,Warehouse Central,Zone C,7.5,2.55,Van,53.42,None recorded
+ORD-00474,2026-10-11 07:51:00,2026-10-11 10:22:48,2026-10-11 09:06:36,delivered,Warehouse North,Zone E,8.2,7.28,Van,61.58,None recorded
+ORD-00475,2026-10-16 15:11:00,2026-10-16 17:35:36,,cancelled,Warehouse South,Zone D,3.1,1.77,Bike,39.3,Not applicable
+ORD-00476,2026-10-14 17:15:00,2026-10-14 21:00:00,2026-10-14 21:14:24,delivered,Warehouse North,Zone F,19.2,4.78,Van,83.0,Route issue
+ORD-00477,2026-10-11 14:38:00,2026-10-11 16:45:48,2026-10-11 15:23:36,delivered,Warehouse Central,Zone E,3.2,0.3,Bike,23.5,None recorded
+ORD-00478,2026-10-28 11:36:00,2026-10-28 13:30:00,2026-10-28 13:38:24,delivered,Warehouse North,Zone D,6.3,1.64,Bike,57.6,Route issue
+ORD-00479,2026-10-16 16:49:00,2026-10-16 19:38:48,2026-10-16 19:29:48,delivered,Warehouse Central,Zone F,11.1,1.73,Bike,47.76,None recorded
+ORD-00480,2026-10-28 11:21:00,2026-10-28 14:31:48,2026-10-28 13:45:00,delivered,Warehouse Central,Zone C,14.0,1.27,Van,74.73,None recorded
+ORD-00481,2026-10-15 10:05:00,2026-10-15 13:59:36,2026-10-15 12:27:48,delivered,Warehouse South,Zone A,23.6,1.78,Van,87.87,None recorded
+ORD-00482,2026-10-21 17:26:00,2026-10-21 21:26:00,2026-10-21 19:43:23,delivered,Warehouse South,Zone C,20.6,6.04,Van,109.07,None recorded
+ORD-00483,2026-10-04 15:05:00,2026-10-04 17:51:48,2026-10-04 15:51:12,delivered,Warehouse North,Zone E,7.1,2.97,Van,62.69,None recorded
+ORD-00484,2026-10-09 17:21:00,2026-10-09 20:37:12,2026-10-09 20:09:36,delivered,Warehouse South,Zone F,2.8,5.86,Bike,50.88,None recorded
+ORD-00485,2026-10-05 16:15:00,2026-10-05 19:30:00,,cancelled,Warehouse Central,Zone A,14.0,1.84,Van,90.0,Not applicable
+ORD-00486,2026-10-22 10:16:00,2026-10-22 13:23:12,2026-10-22 11:38:48,delivered,Warehouse South,Zone D,13.3,2.2,Bike,65.56,None recorded
+ORD-00487,2026-10-21 07:38:00,2026-10-21 12:20:36,2026-10-21 12:59:36,delivered,Warehouse Central,Zone D,34.7,3.43,Bike,129.41,Weather
+ORD-00488,2026-10-24 14:13:00,2026-10-24 16:03:24,,cancelled,Warehouse Central,Zone F,6.7,7.33,Bike,61.37,Not applicable
+ORD-00489,2026-10-01 08:33:00,2026-10-01 10:32:24,2026-10-01 10:42:36,delivered,Warehouse South,Zone D,13.4,1.55,Truck,63.67,Weather
+ORD-00490,2026-10-19 17:14:00,2026-10-19 21:06:12,2026-10-19 21:41:36,delivered,Warehouse Central,Zone D,30.1,4.06,Van,116.56,Weather
+ORD-00491,2026-10-25 07:07:00,2026-10-25 09:12:24,2026-10-25 10:04:36,delivered,Warehouse Central,Zone A,7.2,1.69,Bike,51.78,Weather
+ORD-00492,2026-10-04 17:12:00,2026-10-04 20:03:00,2026-10-04 21:34:12,delivered,Warehouse North,Zone F,23.1,4.39,Van,104.1,Route issue
+ORD-00493,2026-10-01 13:33:00,2026-10-01 17:34:12,2026-10-01 17:39:00,delivered,Warehouse North,Zone D,27.1,4.07,Bike,97.99,Route issue
+ORD-00494,2026-10-28 14:30:00,2026-10-28 18:14:24,2026-10-28 15:45:00,delivered,Warehouse North,Zone E,8.4,1.36,Bike,57.53,None recorded
+ORD-00495,2026-10-02 12:37:00,2026-10-02 16:14:12,2026-10-02 13:36:24,delivered,Warehouse South,Zone C,6.3,2.6,Van,49.91,None recorded
+ORD-00496,2026-10-06 10:29:00,2026-10-06 14:07:24,2026-10-06 13:14:00,delivered,Warehouse North,Zone E,29.6,0.71,Van,109.63,None recorded
+ORD-00497,2026-10-06 10:33:00,2026-10-06 13:42:36,2026-10-06 13:06:00,delivered,Warehouse North,Zone D,12.4,4.39,Bike,91.48,None recorded
+ORD-00498,2026-10-26 12:43:00,2026-10-26 15:25:00,2026-10-26 15:25:36,delivered,Warehouse Central,Zone A,17.9,3.58,Truck,90.83,Route issue
+ORD-00499,2026-10-26 10:32:00,2026-10-26 13:12:12,2026-10-26 13:08:00,delivered,Warehouse North,Zone D,18.0,6.75,Bike,84.97,None recorded
+ORD-00500,2026-10-08 16:01:00,2026-10-08 18:00:24,,cancelled,Warehouse North,Zone D,20.8,4.76,Van,81.54,Not applicable
+ORD-00501,2026-10-14 17:58:00,2026-10-14 21:02:48,2026-10-14 19:50:12,delivered,Warehouse South,Zone E,20.0,1.59,Van,98.15,None recorded
+ORD-00502,2026-10-16 11:37:00,2026-10-16 14:22:36,2026-10-16 12:31:36,delivered,Warehouse Central,Zone E,12.2,2.1,Van,62.41,None recorded
+ORD-00503,2026-10-17 12:40:00,2026-10-17 15:29:12,2026-10-17 15:59:12,delivered,Warehouse Central,Zone B,12.8,2.63,Truck,70.73,Weather
+ORD-00504,2026-10-14 08:22:00,2026-10-14 11:44:48,2026-10-14 11:28:00,delivered,Warehouse North,Zone F,18.3,3.0,Bike,89.37,None recorded
+ORD-00505,2026-10-01 12:55:00,2026-10-01 14:43:00,,cancelled,Warehouse South,Zone F,7.1,5.26,Bike,63.4,Not applicable
+ORD-00506,2026-10-25 17:58:00,2026-10-25 21:06:24,2026-10-25 22:24:24,delivered,Warehouse Central,Zone D,17.5,4.19,Van,87.21,Weather
+ORD-00507,2026-10-11 10:27:00,2026-10-11 14:42:36,,in transit,Warehouse Central,Zone E,26.5,1.41,Bike,109.83,Not applicable
+ORD-00508,2026-10-01 09:59:00,2026-10-01 11:57:12,2026-10-01 12:08:00,delivered,Warehouse South,Zone A,2.8,10.64,Van,48.25,Traffic
+ORD-00509,2026-10-02 11:42:00,2026-10-02 16:48:36,2026-10-02 15:51:00,delivered,Warehouse Central,Zone F,30.7,2.44,Van,105.17,None recorded
+ORD-00510,2026-10-07 12:49:00,2026-10-07 16:07:36,2026-10-07 15:16:00,delivered,Warehouse North,Zone A,15.2,1.36,Truck,73.88,None recorded
+ORD-00511,2026-10-27 10:13:00,2026-10-27 12:43:00,2026-10-27 11:58:00,delivered,Warehouse North,Zone B,21.9,2.89,Van,92.46,None recorded
+ORD-00512,2026-10-27 10:46:00,2026-10-27 13:49:36,2026-10-27 12:12:24,delivered,Warehouse Central,Zone A,12.7,5.04,Van,76.53,None recorded
+ORD-00513,2026-10-24 14:15:00,2026-10-24 16:47:24,2026-10-24 15:54:36,delivered,Warehouse North,Zone B,12.7,2.57,Bike,62.6,None recorded
+ORD-00514,2026-10-28 15:28:00,2026-10-28 18:02:11,,in transit,Warehouse Central,Zone E,10.6,2.41,Truck,66.55,Not applicable
+ORD-00515,2026-10-06 16:20:00,2026-10-06 20:24:12,2026-10-06 16:41:00,delivered,Warehouse North,Zone B,4.0,2.83,Van,47.68,None recorded
+ORD-00516,2026-10-27 14:14:00,2026-10-27 20:33:12,2026-10-27 18:00:12,delivered,Warehouse Central,Zone E,49.7,4.2,Van,152.81,None recorded
+ORD-00517,2026-10-03 07:47:00,2026-10-03 10:48:48,2026-10-03 10:23:36,delivered,Warehouse North,Zone E,23.6,2.13,Van,86.97,None recorded
+ORD-00518,2026-10-05 15:13:00,2026-10-05 19:54:24,,in transit,Warehouse Central,Zone E,12.6,11.84,Van,83.26,Not applicable
+ORD-00519,2026-10-14 11:01:00,2026-10-14 14:11:12,2026-10-14 14:47:48,delivered,Warehouse South,Zone F,31.1,0.8,Bike,103.53,Traffic
+ORD-00520,2026-10-27 13:58:00,2026-10-27 20:04:00,2026-10-27 16:12:24,delivered,Warehouse South,Zone E,24.9,0.99,Bike,90.43,None recorded
+ORD-00521,2026-10-08 07:53:00,2026-10-08 09:57:12,2026-10-08 12:59:36,delivered,Warehouse South,Zone B,25.4,2.49,Bike,107.05,Other
+ORD-00522,2026-10-10 10:41:00,2026-10-10 13:17:00,2026-10-10 12:51:12,delivered,Warehouse Central,Zone A,30.1,8.2,Bike,107.78,None recorded
+ORD-00523,2026-10-30 12:43:00,2026-10-30 16:22:00,2026-10-30 16:11:12,delivered,Warehouse North,Zone F,16.1,1.85,Van,77.58,None recorded
+ORD-00524,2026-10-09 12:50:00,2026-10-09 15:22:24,2026-10-09 14:56:00,delivered,Warehouse South,Zone D,7.5,4.8,Bike,56.47,None recorded
+ORD-00525,2026-10-25 11:12:00,2026-10-25 15:04:12,,in transit,Warehouse Central,Zone D,18.7,3.07,Van,95.6,Not applicable
+ORD-00526,2026-10-28 13:10:00,2026-10-28 17:23:48,,in transit,Warehouse South,Zone A,28.8,2.63,Bike,95.5,Not applicable
+ORD-00527,2026-10-04 13:07:00,2026-10-04 16:02:12,2026-10-04 14:20:48,delivered,Warehouse South,Zone B,5.6,3.52,Bike,57.87,None recorded
+ORD-00528,2026-10-10 17:31:00,2026-10-10 21:13:36,2026-10-10 17:52:00,delivered,Warehouse Central,Zone E,7.5,2.43,Van,37.73,None recorded
+ORD-00529,2026-10-05 12:41:00,2026-10-05 14:26:00,2026-10-05 14:59:36,delivered,Warehouse South,Zone D,16.1,2.01,Bike,76.15,Other
+ORD-00530,2026-10-08 14:46:00,2026-10-08 16:43:00,2026-10-08 17:46:36,delivered,Warehouse South,Zone F,13.9,5.4,Bike,60.35,Other
+ORD-00531,2026-10-24 10:03:00,2026-10-24 12:48:36,2026-10-24 12:32:24,delivered,Warehouse Central,Zone B,11.3,0.75,Van,95.7,None recorded
+ORD-00532,2026-10-18 07:29:00,2026-10-18 10:20:00,2026-10-18 09:59:36,delivered,Warehouse North,Zone A,29.4,2.64,Bike,113.07,None recorded
+ORD-00533,2026-10-04 10:47:00,2026-10-04 12:59:36,2026-10-04 12:08:00,delivered,Warehouse Central,Zone D,3.8,3.59,Truck,65.32,None recorded
+ORD-00534,2026-10-05 11:56:00,2026-10-05 15:36:12,2026-10-05 13:09:48,delivered,Warehouse North,Zone E,8.8,0.57,Bike,60.95,None recorded
+ORD-00535,2026-10-30 08:14:00,2026-10-30 09:54:12,2026-10-30 10:47:36,delivered,Warehouse North,Zone B,11.8,9.99,Van,98.66,Traffic
+ORD-00536,2026-10-09 16:41:00,2026-10-09 20:33:48,2026-10-09 18:54:48,delivered,Warehouse South,Zone D,12.5,5.32,Bike,76.99,None recorded
+ORD-00537,2026-10-28 13:36:00,2026-10-28 18:07:12,2026-10-28 17:48:00,delivered,Warehouse Central,Zone B,32.9,4.12,Bike,117.53,None recorded
+ORD-00538,2026-10-17 10:37:00,2026-10-17 12:10:36,2026-10-17 11:26:48,delivered,Warehouse North,Zone A,6.0,4.94,Bike,63.81,None recorded
+ORD-00539,2026-10-22 16:30:00,2026-10-22 20:58:48,2026-10-22 19:19:12,delivered,Warehouse South,Zone A,19.0,5.77,Van,84.64,None recorded
+ORD-00540,2026-10-26 11:54:00,2026-10-26 15:17:24,2026-10-26 14:43:12,delivered,Warehouse South,Zone D,20.3,1.5,Van,90.1,None recorded
+ORD-00541,2026-10-25 15:43:00,2026-10-25 18:30:24,2026-10-25 18:17:11,delivered,Warehouse South,Zone B,9.8,1.78,Van,67.52,None recorded
+ORD-00542,2026-10-08 12:02:00,2026-10-08 16:02:36,2026-10-08 14:35:36,delivered,Warehouse Central,Zone E,7.5,1.05,Truck,66.03,None recorded
+ORD-00543,2026-10-29 10:49:00,2026-10-29 12:04:36,2026-10-29 11:25:36,delivered,Warehouse Central,Zone A,9.2,5.64,Van,78.73,None recorded
+ORD-00544,2026-10-22 14:19:00,2026-10-22 17:22:36,,cancelled,Warehouse North,Zone A,16.6,1.47,Van,84.22,Not applicable
+ORD-00545,2026-10-16 17:59:00,2026-10-16 20:59:36,2026-10-16 20:17:00,delivered,Warehouse North,Zone C,9.0,2.67,Van,70.86,None recorded
+ORD-00546,2026-10-06 09:11:00,2026-10-06 13:24:48,2026-10-06 13:27:12,delivered,Warehouse Central,Zone C,35.2,4.18,Bike,129.44,Route issue
+ORD-00547,2026-10-14 14:05:00,2026-10-14 19:39:47,2026-10-14 18:37:24,delivered,Warehouse North,Zone A,58.0,2.19,Bike,171.18,None recorded
+ORD-00548,2026-10-21 07:49:00,2026-10-21 10:34:36,2026-10-21 11:44:48,delivered,Warehouse North,Zone D,17.4,3.65,Van,102.04,Traffic
+ORD-00549,2026-10-12 09:27:00,2026-10-12 10:44:23,2026-10-12 13:06:36,delivered,Warehouse Central,Zone D,26.8,5.99,Van,91.52,Route issue
+ORD-00550,2026-10-17 17:52:00,2026-10-17 21:02:48,2026-10-17 21:14:12,delivered,Warehouse South,Zone F,17.6,2.01,Van,78.84,Route issue
+ORD-00551,2026-10-28 11:12:00,2026-10-28 13:31:12,2026-10-28 12:01:12,delivered,Warehouse Central,Zone F,4.7,1.49,Van,34.31,None recorded
+ORD-00552,2026-10-11 15:02:00,2026-10-11 19:02:36,2026-10-11 17:56:00,delivered,Warehouse North,Zone F,18.5,3.29,Bike,86.72,None recorded
+ORD-00553,2026-10-04 16:39:00,2026-10-04 20:35:24,2026-10-04 19:10:12,delivered,Warehouse North,Zone B,15.3,7.16,Bike,74.44,None recorded
+ORD-00554,2026-10-26 10:35:00,2026-10-26 14:02:00,2026-10-26 12:54:12,delivered,Warehouse North,Zone B,11.7,4.7,Van,66.03,None recorded
+ORD-00555,2026-10-13 11:51:00,2026-10-13 14:48:36,2026-10-13 14:31:12,delivered,Warehouse Central,Zone A,15.1,2.95,Truck,76.12,None recorded
+ORD-00556,2026-10-13 14:21:00,2026-10-13 18:21:36,2026-10-13 18:59:24,delivered,Warehouse South,Zone F,26.2,5.32,Van,88.37,Other
+ORD-00557,2026-10-01 10:43:00,2026-10-01 14:44:12,2026-10-01 12:07:00,delivered,Warehouse South,Zone A,10.2,7.94,Bike,72.99,None recorded
+ORD-00558,2026-10-03 14:33:00,2026-10-03 18:18:36,2026-10-03 16:55:48,delivered,Warehouse South,Zone B,25.5,2.58,Van,100.88,None recorded
+ORD-00559,2026-10-05 07:36:00,2026-10-05 09:06:36,,in transit,Warehouse North,Zone B,12.6,1.13,Bike,69.35,Not applicable
+ORD-00560,2026-10-07 15:36:00,2026-10-07 18:33:00,2026-10-07 17:01:48,delivered,Warehouse Central,Zone A,6.7,3.71,Van,63.85,None recorded
+ORD-00561,2026-10-16 17:27:00,2026-10-16 20:10:48,2026-10-16 19:54:36,delivered,Warehouse North,Zone D,19.9,2.8,Truck,99.13,None recorded
+ORD-00562,2026-10-21 09:11:00,2026-10-21 13:21:12,2026-10-21 10:41:00,delivered,Warehouse Central,Zone E,16.6,0.92,Bike,85.6,None recorded
+ORD-00563,2026-10-19 11:42:00,2026-10-19 15:13:12,2026-10-19 14:06:00,delivered,Warehouse South,Zone C,21.6,1.56,Van,95.91,None recorded
+ORD-00564,2026-10-27 17:55:00,2026-10-27 21:41:12,2026-10-27 19:55:36,delivered,Warehouse North,Zone F,11.0,2.58,Van,75.24,None recorded
+ORD-00565,2026-10-20 08:53:00,2026-10-20 11:36:12,2026-10-20 10:34:24,delivered,Warehouse Central,Zone F,15.6,4.84,Bike,64.98,None recorded
+ORD-00566,2026-10-28 07:33:00,2026-10-28 09:00:36,2026-10-28 09:39:00,delivered,Warehouse South,Zone B,5.9,6.48,Truck,64.94,High order volume
+ORD-00567,2026-10-13 14:37:00,2026-10-13 16:52:00,2026-10-13 15:23:48,delivered,Warehouse South,Zone D,10.3,7.29,Bike,77.49,None recorded
+ORD-00568,2026-10-16 09:23:00,2026-10-16 13:47:00,,in transit,Warehouse South,Zone C,17.7,3.7,Van,85.07,Not applicable
+ORD-00569,2026-10-19 09:33:00,2026-10-19 12:38:24,2026-10-19 12:28:12,delivered,Warehouse North,Zone E,16.0,2.42,Bike,86.23,None recorded
+ORD-00570,2026-10-05 16:42:00,2026-10-05 19:28:48,2026-10-05 21:15:00,delivered,Warehouse Central,Zone E,33.3,1.46,Van,123.45,Route issue
+ORD-00571,2026-10-04 07:41:00,2026-10-04 11:04:24,2026-10-04 11:18:12,delivered,Warehouse Central,Zone C,17.3,1.66,Van,79.11,Traffic
+ORD-00572,2026-10-07 07:50:00,2026-10-07 10:18:12,2026-10-07 08:52:24,delivered,Warehouse North,Zone B,6.8,1.98,Van,42.78,None recorded
+ORD-00573,2026-10-04 14:28:00,2026-10-04 17:09:24,2026-10-04 16:46:00,delivered,Warehouse North,Zone E,17.4,3.42,Truck,84.64,None recorded
+ORD-00574,2026-10-10 08:37:00,2026-10-10 10:41:12,2026-10-10 09:56:48,delivered,Warehouse Central,Zone E,11.1,0.41,Van,64.74,None recorded
+ORD-00575,2026-10-14 17:11:00,2026-10-14 20:47:00,2026-10-14 20:46:24,delivered,Warehouse North,Zone D,29.4,5.37,Truck,130.67,None recorded
+ORD-00576,2026-10-19 10:52:00,2026-10-19 14:59:12,2026-10-19 13:46:36,delivered,Warehouse North,Zone E,26.9,0.25,Truck,100.23,None recorded
+ORD-00577,2026-10-17 15:07:00,2026-10-17 17:26:12,2026-10-17 17:26:12,delivered,Warehouse North,Zone D,12.3,2.63,Bike,67.79,None recorded
+ORD-00578,2026-10-11 09:34:00,2026-10-11 13:18:24,2026-10-11 13:02:48,delivered,Warehouse Central,Zone B,15.9,5.7,Van,80.84,None recorded
+ORD-00579,2026-10-26 17:50:00,2026-10-26 20:40:24,2026-10-26 19:39:48,delivered,Warehouse South,Zone B,12.9,0.63,Van,68.25,None recorded
+ORD-00580,2026-10-24 08:02:00,2026-10-24 10:38:36,,in transit,Warehouse North,Zone E,10.2,1.93,Truck,65.1,Not applicable
+ORD-00581,2026-10-03 08:47:00,2026-10-03 11:08:36,2026-10-03 10:59:00,delivered,Warehouse North,Zone E,23.7,4.93,Van,107.04,None recorded
+ORD-00582,2026-10-12 15:25:00,2026-10-12 16:57:24,2026-10-12 17:23:48,delivered,Warehouse North,Zone A,2.3,3.42,Truck,54.11,Other
+ORD-00583,2026-10-28 08:22:00,2026-10-28 12:49:36,2026-10-28 12:34:36,delivered,Warehouse Central,Zone C,46.9,2.96,Bike,138.54,None recorded
+ORD-00584,2026-10-01 13:35:00,2026-10-01 17:45:12,2026-10-01 16:35:36,delivered,Warehouse Central,Zone F,23.7,2.34,Bike,93.84,None recorded
+ORD-00585,2026-10-21 12:15:00,2026-10-21 14:56:24,2026-10-21 14:04:48,delivered,Warehouse Central,Zone E,11.2,10.77,Bike,77.11,None recorded
+ORD-00586,2026-10-22 11:28:00,2026-10-22 15:20:12,2026-10-22 15:30:24,delivered,Warehouse Central,Zone C,42.4,2.64,Van,119.37,Other
+ORD-00587,2026-10-08 10:34:00,2026-10-08 14:26:12,2026-10-08 13:31:00,delivered,Warehouse Central,Zone C,18.9,1.34,Van,87.1,None recorded
+ORD-00588,2026-10-17 10:24:00,2026-10-17 12:23:24,2026-10-17 11:09:00,delivered,Warehouse Central,Zone B,3.0,1.87,Bike,51.79,None recorded
+ORD-00589,2026-10-08 08:32:00,2026-10-08 12:21:48,2026-10-08 11:29:36,delivered,Warehouse North,Zone D,19.0,1.09,Truck,90.34,None recorded
+ORD-00590,2026-10-29 17:56:00,2026-10-29 20:33:12,2026-10-29 20:51:48,delivered,Warehouse South,Zone D,11.2,2.52,Truck,49.02,Weather
+ORD-00591,2026-10-15 15:23:00,2026-10-15 18:47:00,2026-10-15 18:03:12,delivered,Warehouse Central,Zone D,24.5,5.72,Van,108.98,None recorded
+ORD-00592,2026-10-28 13:32:00,2026-10-28 14:59:00,2026-10-28 15:51:12,delivered,Warehouse North,Zone A,5.7,0.83,Van,53.38,High order volume
+ORD-00593,2026-10-08 11:23:00,2026-10-08 14:15:48,2026-10-08 14:32:00,delivered,Warehouse Central,Zone D,6.9,6.28,Van,75.25,Traffic
+ORD-00594,2026-10-18 11:02:00,2026-10-18 15:20:36,2026-10-18 16:08:00,delivered,Warehouse Central,Zone E,27.2,13.87,Van,132.73,Weather
+ORD-00595,2026-10-01 12:25:00,2026-10-01 15:02:12,2026-10-01 15:31:00,delivered,Warehouse South,Zone B,15.1,6.05,Van,92.49,Other
+ORD-00596,2026-10-29 16:52:00,2026-10-29 18:54:24,2026-10-29 20:10:36,delivered,Warehouse South,Zone C,15.3,3.94,Van,70.21,Route issue
+ORD-00597,2026-10-02 08:16:00,2026-10-02 11:20:48,2026-10-02 10:37:00,delivered,Warehouse South,Zone C,24.4,3.12,Bike,92.84,None recorded
+ORD-00598,2026-10-06 07:13:00,2026-10-06 10:40:36,2026-10-06 10:16:36,delivered,Warehouse Central,Zone A,19.4,2.23,Truck,82.51,None recorded
+ORD-00599,2026-10-26 13:10:00,2026-10-26 17:49:36,2026-10-26 15:41:12,delivered,Warehouse South,Zone A,16.2,0.53,Van,88.85,None recorded
+ORD-00600,2026-10-20 07:29:00,2026-10-20 11:10:24,2026-10-20 10:33:48,delivered,Warehouse Central,Zone F,24.6,0.47,Bike,84.32,None recorded
